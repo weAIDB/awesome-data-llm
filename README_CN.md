@@ -1005,7 +1005,7 @@
 
 1. **Octopus: A Lightweight Entity-Aware System for Multi-Table Data Discovery and Cell-Level Retrieval** Wen-Zhi Li, Sainyam Galhotra. *arXiv 2026*. [[Paper](https://doi.org/10.48550/arXiv.2601.02304)]
 2. **HyperJoin: LLM-augmented Hypergraph Link Prediction for Joinable Table Discovery** Shiyuan Liu, Jianwei Wang, Xuemin Lin, et al. *arXiv 2026*. [[Paper](https://doi.org/10.48550/arXiv.2601.01015)]
-3. **Pneuma: Leveraging LLMs for Tabular Data Representation and Retrieval in an End-to-End System** Muhammad Imam Luthfi Balaka, David Alexander, Qiming Wang, et al. *SIGMOD 2025*. [[Paper](https://arxiv.org/abs/2504.09207#:~:text=In this paper%2C we introduce Pneuma%2C a retrieval-augmented,designed to efficiently and effectively discover tabular data.)]
+3. **Pneuma: Leveraging LLMs for Tabular Data Representation and Retrieval in an End-to-End System** Muhammad Imam Luthfi Balaka, David Alexander, Qiming Wang, et al. *SIGMOD 2025*. [[Paper](https://dl.acm.org/doi/10.1145/3725337)]
 4. **LLMDap: LLM-based Data Profiling and Sharing** Shanshan Jiang, Sondre Sørbø, Phil Tinn, et al. *VLDB 2025 Workshop: 3rd Data EConomy Workshop (DEC)*. [[Paper](https://www.vldb.org/2025/Workshops/VLDB-Workshops-2025/DEC/DEC25_5.pdf)]
 5. **Hierarchical Table Semantics for Exploratory Table Discovery** Grace Fan, Juliana Freire. *HILDA 2025*. [[Paper](https://doi.org/10.1145/3736733.3736746)]
 6. **Flexible Metadata Harvesting for Ecology Using Large Language Models** Zehao Lu, Thijs L van der Plas, Parinaz Rashidi, et al. *EcoDL 2025 Workshop*. [[Paper](https://doi.org/10.48550/arXiv.2508.20115)]
@@ -1426,7 +1426,7 @@
 **标记查询（Markup Query）**
 
 1. **XPath Agent: An Efficient XPath Programming Agent Based on LLM for Web Crawler** Yu Li, Bryce Wang, Xinyu Luan. *arXiv 2025*. [[Paper](https://doi.org/10.48550/arXiv.2502.15688)]
-    
+   
 2. **Bridging the Gap: Enabling Natural Language Queries for NoSQL Databases through Text-to-NoSQL Translation** Jinwei Lu, Yuanfeng Song, Zhiqian Qin, et al. *arXiv 2025*. [[Paper](https://doi.org/10.48550/arXiv.2502.11201)]
 
 **标记理解（Markup Understanding）**
@@ -1448,7 +1448,7 @@
 **表格提示工程（Table Prompting）**
 
 1. **SpreadsheetLLM: Encoding Spreadsheets for Large Language Models** Haoyu Dong, Jianbo Zhao, Yuzhang Tian, et al. *arXiv 2024*. [[Paper](https://doi.org/10.48550/arXiv.2407.09025)]
-    
+   
 2. **HySem: A Context Length Optimized LLM Pipeline for Unstructured Tabular Extraction** Narayanan PP, Anantharaman Palacode Narayana Iyer. *TRL @ NeurIPS 2024 Poster, 2024*. [[Paper](https://nips.cc/virtual/2024/103176)]
 
 **表格查询（Table Querying）**
@@ -1644,7 +1644,7 @@
 #### 5.4.1 LLM 用于模态对齐
 
 1. **Unicorn: A Unified Multi-Tasking Matching Model** Ju Fan, Jianhong Tu, Guoliang Li, et al. *ACM SIGMOD Record, Vol. 53, No. 1, pp. 44-53 (2024)*. [[Paper](https://doi.org/10.1145/3665252.3665263)]
-    
+   
 2. **Symphony: Towards Natural Language Query Answering over Multi-modal Data Lakes** Zui Chen, Zihui Gu, Lei Cao, Ju Fan, Sam Madden, Nan Tang. *CIDR 2023*. [[Paper](https://www.vldb.org/cidrdb/2023/symphony-towards-natural-language-query-answering-over-multi-modal-data-lakes.html)]
 
 
