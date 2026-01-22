@@ -1192,7 +1192,7 @@ Synthesize reasoning steps using, e.g., CoT.
    Luyi Ma, et al. *1st IEEE International Workshop on Data Engineering and Modeling for AI (DEMAI), IEEE BigData 2023.* [[Paper](https://arxiv.org/abs/2312.16351)]
 
 5. **Large language models as data preprocessors**
-  Zhang, Haochen, et al. *arXiv 2023*. [[Paper](https://arxiv.org/abs/2308.16361)]
+    Zhang, Haochen, et al. *arXiv 2023*. [[Paper](https://arxiv.org/abs/2308.16361)]
 
 ##### Data Error Processing
 
@@ -1215,7 +1215,7 @@ Synthesize reasoning steps using, e.g., CoT.
 9. **IterClean: An Iterative Data Cleaning Framework with Large Language Models**
    Wei Ni, et al. *Proceedings of the ACM Turing Award Celebration Conference - China 2024*. [[Paper](https://dl.acm.org/doi/abs/10.1145/3674399.3674436)]
 10. **LLMClean: Context-Aware Tabular Data Cleaning via LLM-Generated OFDs**
-   Fabian Biester, Mohamed Abdelaal, Daniel Del Gaudio. *arXiv 2024.* [[Paper](https://arxiv.org/abs/2404.18681)]
+      Fabian Biester, Mohamed Abdelaal, Daniel Del Gaudio. *arXiv 2024.* [[Paper](https://arxiv.org/abs/2404.18681)]
 
 ##### Data Imputation
 
@@ -1288,7 +1288,7 @@ Synthesize reasoning steps using, e.g., CoT.
 9. **Matchmaker: Self-Improving Large Language Model Programs for Schema Matching**
    Nabeel Seedat, Mihaela van der Schaar. *NeurIPS 2024 (GenAI for Health & Table Representation Learning Workshops)*. [[Paper](https://doi.org/10.48550/arXiv.2410.24105)]
 10. **TableGPT2: A Large Multimodal Model with Tabular Data Integration**
-   Aofeng Su, Aowen Wang, Chao Ye, et al. *arXiv 2024.* [[Paper](https://doi.org/10.48550/arXiv.2411.02059)]
+      Aofeng Su, Aowen Wang, Chao Ye, et al. *arXiv 2024.* [[Paper](https://doi.org/10.48550/arXiv.2411.02059)]
 
 #### 4.1.3 LLM for Data Enrichment
 
@@ -1313,13 +1313,11 @@ Synthesize reasoning steps using, e.g., CoT.
 9. **From LLM-anation to LLM-orchestrator: Coordinating Small Models for Data Labeling**
    Yao Lu, Zhaiyuan Ji, Jiawei Du, et al. *arXiv 2025*. [[Paper](https://doi.org/10.48550/arXiv.2506.16393)]
 10. **Columbo: Expanding Abbreviated Column Names for Tabular Data Using Large Language Models**
-   Ting Cai, Stephen Sheen, AnHai Doan. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2508.09403v2)]
+      Ting Cai, Stephen Sheen, AnHai Doan. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2508.09403v2)]
 11. **An LLM Agent-Based Complex Semantic Table Annotation Approach**
     Yilin Geng, Shujing Wang, Chuan Wang, et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2508.12868)]
 12. **Prompt Candidates, then Distill: A Teacher-Student Framework for LLM-driven Data Annotation**
     Xia, Mingxuan, et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2506.03857)]
-13. **Evaluating how LLM annotations represent diverse views on contentious topics**
-    Brown, Megan A., et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2503.23243)]
 14. **ArcheType: A Novel Framework for Open-Source Column Type Annotation Using Large Language Models**
     Benjamin Feuer, Yurong Liu, Chinmay Hegde, et al. *Proc. VLDB Endow. 2024*. [[Paper](https://doi.org/10.14778/3665844.3665857)]
 15. **CHORUS: Foundation Models for Unified Data Discovery and Exploration**
@@ -1342,7 +1340,7 @@ Synthesize reasoning steps using, e.g., CoT.
    Shiyuan Liu, Jianwei Wang, Xuemin Lin, et al. *arXiv 2026*. [[Paper](https://doi.org/10.48550/arXiv.2601.01015)]
 
 3. **Pneuma: Leveraging LLMs for Tabular Data Representation and Retrieval in an End-to-End System**
-   Muhammad Imam Luthfi Balaka, David Alexander, Qiming Wang, et al. *SIGMOD 2025*. [[Paper](https://arxiv.org/abs/2504.09207#:~:text=In%20this%20paper%2C%20we%20introduce%20Pneuma%2C%20a%20retrieval-augmented,designed%20to%20efficiently%20and%20effectively%20discover%20tabular%20data.)]
+   Muhammad Imam Luthfi Balaka, David Alexander, Qiming Wang, et al. *SIGMOD 2025*. [[Paper](https://dl.acm.org/doi/10.1145/3725337)]
 
 4. **LLMDap: LLM-based Data Profiling and Sharing**
    Shanshan Jiang, Sondre Sørbø, Phil Tinn, et al. *VLDB 2025 Workshop: 3rd Data EConomy Workshop (DEC)*. [[Paper](https://www.vldb.org/2025/Workshops/VLDB-Workshops-2025/DEC/DEC25_5.pdf)]
