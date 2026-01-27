@@ -23,6 +23,13 @@
     journal={arXiv preprint arXiv:2509.23988},
     url={https://arxiv.org/abs/2509.23988}
 }
+@article{zhoullmpreparationsurvey,
+    title={Can LLMs Clean Up Your Mess? A Survey of Application-Ready Data Preparation with LLMs},
+    author={Wei Zhou, Jun Zhou, Haoyu Wang, Zhenghao Li, Qikang He, Shaokun Han, Guoliang Li, Xuanhe Zhou, Yeye He, Chunwei Liu, Zirui Tang, Bin Wang, Shen Tang, Kai Zuo, Yuyu Luo, Zhenzhe Zheng, Conghui He, Jingren Zhou, Fan Wu},
+    year={2026},
+    journal={arXiv preprint arXiv:2601.17058},
+    url={https://arxiv.org/abs/2601.17058}
+}
 ```
 
 ## 🌤 The IaaS Concept of DATA4LLM
@@ -2311,4 +2318,5 @@ Synthesize reasoning steps using, e.g., CoT.
    Mengzhao Wang, Xiangyu Ke, Xiaoliang Xu, et al. *ICDE 2024*. [[Paper](https://doi.org/10.1109/ICDE60146.2024.00361)]
 1. **Explainable Multi-Modal Data Exploration in Natural Language via LLM Agent**
    Farhad Nooralahzadeh, Yi Zhang, Jonathan Furst, Kurt Stockinger. *arXiv 2024*. [[Paper](https://doi.org/10.48550/arXiv.2412.18428)]
+
 
