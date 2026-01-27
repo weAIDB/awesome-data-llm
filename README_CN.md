@@ -23,6 +23,13 @@
     journal={arXiv preprint arXiv:2509.23988},
     url={https://arxiv.org/abs/2509.23988}
 }
+@article{zhoullmpreparationsurvey,
+    title={Can LLMs Clean Up Your Mess? A Survey of Application-Ready Data Preparation with LLMs},
+    author={Wei Zhou, Jun Zhou, Haoyu Wang, Zhenghao Li, Qikang He, Shaokun Han, Guoliang Li, Xuanhe Zhou, Yeye He, Chunwei Liu, Zirui Tang, Bin Wang, Shen Tang, Kai Zuo, Yuyu Luo, Zhenzhe Zheng, Conghui He, Jingren Zhou, Fan Wu},
+    year={2026},
+    journal={arXiv preprint arXiv:2601.17058},
+    url={https://arxiv.org/abs/2601.17058}
+}
 ```
 
 ## 🌤 DATA4LLM 的 IaaS 理念
