@@ -966,7 +966,7 @@
 8. **RetClean: Retrieval-Based Data Cleaning Using LLMs and Data Lakes** Zan Ahmad Naeem, et al. *VLDB Endowment 2024*. [[Paper](https://dl.acm.org/doi/10.14778/3685800.3685890)]
 9. **Data Imputation using Large Language Model to Accelerate Recommendation System** Zhicheng Ding, Jiahao Tian, Zhenkai Wang, et al. *arXiv 2024*. [[Paper](https://doi.org/10.48550/arXiv.2407.10078)]
 
-#### 4.1.2 LLM 用于数据集成
+#### 4.1.2 数据集成
 
 ##### 4.1.2.1 实体匹配
 
@@ -997,7 +997,7 @@
 9. **Matchmaker: Self-Improving Large Language Model Programs for Schema Matching** Nabeel Seedat, Mihaela van der Schaar. *NeurIPS 2024 (GenAI for Health & Table Representation Learning Workshops)*. [[Paper](https://doi.org/10.48550/arXiv.2410.24105)]
 10. **TableGPT2: A Large Multimodal Model with Tabular Data Integration** Aofeng Su, Aowen Wang, Chao Ye, et al. *arXiv 2024.* [[Paper](https://doi.org/10.48550/arXiv.2411.02059)]
 
-#### 4.1.3 LLM 用于数据发现
+#### 4.1.3 数据发现
 
 ##### 4.1.3.1 数据标注
 
