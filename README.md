@@ -88,8 +88,10 @@ We present a systematic survey of **LLM-enhanced data preparation**, an emerging
   - [3.3 Data Packing](#33-data-packing)
   - [3.4 Data Provenance](#34-data-provenance)
 - [4 LLM for Data Management](#4-llm-for-data-management)
-  - [4.1 LLM for Data Manipulation](#41-llm-for-data-manipulation)
-  - [4.2 LLM for Data System Optimization](#42-llm-for-data-system-optimization)
+  
+  - [4.1 LLM for Data Preparation / Manipulation](#41-llm-for-data-preparation-/-manipulation)
+  - [4.2 LLM for Analysis](#42-llm-for-data-analysis)
+  - [4.3 LLM for Data System Optimization](#43-llm-for-data-system-optimization)
 - [5 LLM as Data Analyst](#5-llm-as-data-analyst)
 
    - [5.1 LLM for Structured Data Analysis](#51-llm-for-structured-data-analysis)
@@ -1191,11 +1193,11 @@ Synthesize reasoning steps using, e.g., CoT.
 
 [⬆️top](#table-of-contents)
 
-### 4.1 LLM for Data Manipulation
+### 4.1 LLM for Data Preparation / Manipulation
 
-#### 4.1.1 LLM for Data Cleaning
+#### 4.1.1 Data Cleaning
 
-##### Data Standardization
+##### 4.1.1.1 Data Standardization
 
 1. **CleanAgent: Automating Data Standardization with LLM-based Agents**
    Danrui Qi, Jiannan Wang. *arXiv 2024.* [[Paper](https://arxiv.org/pdf/2403.08291)]
@@ -1212,7 +1214,7 @@ Synthesize reasoning steps using, e.g., CoT.
 5. **Large language models as data preprocessors**
     Zhang, Haochen, et al. *arXiv 2023*. [[Paper](https://arxiv.org/abs/2308.16361)]
 
-##### Data Error Processing
+##### 4.1.1.2 Data Error Processing
 
 1. **Ensembling LLM-Induced Decision Trees for Explainable and Robust Error Detection**
    Mengqi Wang, Jianwei Wang, Qing Liu, et al. *arXiv 2025*. [[Paper](https://doi.org/10.48550/arXiv.2512.07246)]
@@ -1235,7 +1237,7 @@ Synthesize reasoning steps using, e.g., CoT.
 10. **LLMClean: Context-Aware Tabular Data Cleaning via LLM-Generated OFDs**
       Fabian Biester, Mohamed Abdelaal, Daniel Del Gaudio. *arXiv 2024.* [[Paper](https://arxiv.org/abs/2404.18681)]
 
-##### Data Imputation
+##### 4.1.1.3 Data Imputation
 
 1. **Data Imputation with Limited Data Redundancy Using Data Lakes**
    Chenyu Yang, Yuyu Luo, Chuanxuan Cui, et al. *Proc. VLDB Endow. 2025*. [[Paper](https://doi.org/10.14778/3748191.3748200)]
@@ -1256,9 +1258,9 @@ Synthesize reasoning steps using, e.g., CoT.
 9. **Data Imputation using Large Language Model to Accelerate Recommendation System**
    Zhicheng Ding, Jiahao Tian, Zhenkai Wang, et al. *arXiv 2024*. [[Paper](https://doi.org/10.48550/arXiv.2407.10078)]
 
-#### 4.1.2 LLM for Data Integration
+#### 4.1.2 Data Integration
 
-##### Entity Matching
+##### 4.1.2.1 Entity Matching
 
 1. **In-context Clustering-based Entity Resolution with Large Language Models: A Design Space Exploration**
    Jiajie Fu, Haitong Tang, Arijit Khan, et al. *Proceedings of the ACM on Management of Data, Volume 3, Issue 4, 2025*. [[Paper](https://doi.org/10.1145/3749170)]
@@ -1285,7 +1287,7 @@ Synthesize reasoning steps using, e.g., CoT.
 12. **Fine-tuning Large Language Models for Entity Matching**
       Steiner, Aaron, Ralph Peeters, et al. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2409.08185)]
 
-##### Schema Matching
+##### 4.1.2.2 Schema Matching
 
 1. **Towards Scalable Schema Mapping using Large Language Models**
    Christopher Buss, Mahdis Safari, Arash Termehchy, et al. *MIDAS ’25 Workshop, pp. 12-15 (2025)*. [[Paper](https://doi.org/10.1145/3737412.3743490)]
@@ -1308,9 +1310,9 @@ Synthesize reasoning steps using, e.g., CoT.
 10. **TableGPT2: A Large Multimodal Model with Tabular Data Integration**
       Aofeng Su, Aowen Wang, Chao Ye, et al. *arXiv 2024.* [[Paper](https://doi.org/10.48550/arXiv.2411.02059)]
 
-#### 4.1.3 LLM for Data Enrichment
+#### 4.1.3 Data Enrichment
 
-##### Data Annotation
+##### 4.1.3.1 Data Annotation
 
 1. **LLMLog: Advanced Log Template Generation via LLM-Driven Multi-Round Annotation**
     Fei Teng, Haoyang Li, Lei Chen. *Proc. VLDB Endow. 2025*. [[Paper](https://doi.org/10.14778/3746405.3746433)]
@@ -1349,7 +1351,7 @@ Synthesize reasoning steps using, e.g., CoT.
 19. **Large Language Models as Annotators: Enhancing Generalization of NLP Models at Minimal Cost**
     Bansal, Parikshit, and Amit Sharma. *arXiv 2023*. [[Paper](https://arxiv.org/abs/2306.15766)]
 
-##### Data Profiling
+##### 4.1.3.2 Data Profiling
 
 1. **Octopus: A Lightweight Entity-Aware System for Multi-Table Data Discovery and Cell-Level Retrieval**
    Wen-Zhi Li, Sainyam Galhotra. *arXiv 2026*. [[Paper](https://doi.org/10.48550/arXiv.2601.02304)]
@@ -1383,7 +1385,6 @@ Synthesize reasoning steps using, e.g., CoT.
 
 11. **DynoClass: A Dynamic Table-Class Detection System Without the Need for Predefined Ontologies**
     Haonan Wang, Eugene Wu, Kechen Liu, et al. *TRL @ NeurIPS 2024 Poster*. [[Paper](https://openreview.net/forum?id=r45TbawHl8#discussion)]
-
 
 ### 4.2 LLM for Data Analysis
 
@@ -1608,12 +1609,11 @@ Synthesize reasoning steps using, e.g., CoT.
 7.  **RepoFusion: Training Code Models to Understand Your Repository**
    Disha Shrivastava, Denis Kocetkov, Harm de Vries, et al. *arXiv 2023.* [[Paper](https://doi.org/10.48550/arXiv.2306.10998)]
 
-
-### 4.2 LLM for Data System Optimization
+### 4.3 LLM for Data System Optimization
 
 [⬆️top](#table-of-contents)
 
-#### 4.2.1 LLM for Configuration Tuning
+#### 4.3.1 LLM for Configuration Tuning
 
 1. **ELMo-Tune-V2: LLM-Assisted Full-Cycle Auto-Tuning to Optimize LSM-Based Key-Value Stores**
     Viraj Thakkar, Qi Lin, Kenanya Keandra Adriel Prasetyo, et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2502.17606)]
@@ -1649,7 +1649,7 @@ Synthesize reasoning steps using, e.g., CoT.
 
 
 
-#### 4.2.2 LLM for Query Optimization
+#### 4.3.2 LLM for Query Optimization
 
 ##### Optimization-Aware Prompt Engineering
 
@@ -1677,7 +1677,7 @@ Synthesize reasoning steps using, e.g., CoT.
 
 
 
-#### 4.2.3 LLM for Anomaly Diagnosis
+#### 4.3.3 LLM for Anomaly Diagnosis
 
 ##### Manually Crafted Prompts for Anomaly Diagnosis
 
@@ -1711,6 +1711,8 @@ Synthesize reasoning steps using, e.g., CoT.
    Guoliang Li, Xuanhe Zhou, Xinyang Zhao. *PVLDB 17(12).* 2024. [[Paper](https://doi.org/10.14778/3685800.3685838)]
 3. **LLM-Enhanced Data Management**
    Xuanhe Zhou, Xinyang Zhao, Guoliang Li. *arXiv 2024*. [[Paper](https://doi.org/10.48550/arXiv.2402.02643)]
+
+
 
 ## 5 LLM as Data Analyst
 
