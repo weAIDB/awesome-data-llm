@@ -44,6 +44,12 @@
 
 [![Cover2](assets/data_analysis_survey_v2.png)](assets/data_analysis_survey_v2.png)
 
+## 🌟 LLM-Enhanced Application-Ready Data Preparation
+
+我们对**大语言模型增强的数据准备**这一新兴范式进行了系统性综述。该范式的发展主要源于三大驱动力：日益增长的应用就绪数据需求、大语言模型的技术进步以及面向智能体的数据基础设施演进。本次综述涵盖以下五个维度：**(1) 范式转型辨析：**揭示数据准备流程从基于规则的模型专用管道向提示驱动、情境感知的智能体工作流转变的核心特征；**(2) 任务中心分类法：**将现有方法归纳为数据清洗、数据集成与数据增强三大任务体系；**(3) 技术方法解析：**逐类评述代表性技术，并辩证分析其优势与局限；**(4) 全面实验评估：**系统梳理常用数据集与评估实践；**(5) 研究路线图：**展望构建可扩展、高可靠、强鲁棒的大语言模型驱动数据准备系统所面临的开放挑战与未来方向。 [![arXiv](https://camo.githubusercontent.com/dc1f84975e5d05724930d5c650e4b6eaea49e9f4c03d00de50bd7bf950394b4f/68747470733a2f2f68756767696e67666163652e636f2f64617461736574732f68756767696e67666163652f6261646765732f7261772f6d61696e2f70617065722d706167652d736d2d6461726b2e737667)](https://arxiv.org/abs/2601.17058)
+
+[![Cover3](assets/llm_data_preparation_survey_overview.jpg)](assets/llm_data_preparation_survey_overview.jpg)
+
 ## 目录
 
 - [数据集](#数据集)

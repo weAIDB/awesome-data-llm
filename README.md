@@ -44,6 +44,12 @@ We observe the evolution of **LLM/Agent-as-Data-Analyst** techniques follows a f
 
 [![Cover2](assets/data_analysis_survey_v2.png)](assets/data_analysis_survey_v2.png)
 
+## 🌟 LLM-Enhanced Application-Ready Data Preparation
+
+We present a systematic survey of **LLM-enhanced data preparation**, an emerging paradigm driven by growing demands for application-ready data, advances in large language models, and agent-oriented data infrastructures. **(1) Paradigm Shift Identification:** We reveal the transition from rule-based, model-specific pipelines to prompt-driven, context-aware, and agentic preparation workflows; **(2) Task-Centric Taxonomy:** We organize existing methods into data cleaning, data integration, and data enrichment;  **(3) Methodological Survey:** We review representative techniques for each task, highlighting their strengths and limitations; **(4) Empirical Landscape Analysis:** We examine commonly used datasets and evaluation practices; **(5) Research Roadmap:** We outline open challenges and future directions toward scalable, reliable, and robust LLM-based data preparation systems. [![arXiv](https://camo.githubusercontent.com/dc1f84975e5d05724930d5c650e4b6eaea49e9f4c03d00de50bd7bf950394b4f/68747470733a2f2f68756767696e67666163652e636f2f64617461736574732f68756767696e67666163652f6261646765732f7261772f6d61696e2f70617065722d706167652d736d2d6461726b2e737667)](https://arxiv.org/abs/2601.17058)
+
+[![Cover3](assets/llm_data_preparation_survey_overview.jpg)](assets/llm_data_preparation_survey_overview.jpg)
+
 ## Table of Contents
 
 - [Datasets](#datasets)
@@ -2318,5 +2324,4 @@ Synthesize reasoning steps using, e.g., CoT.
    Mengzhao Wang, Xiangyu Ke, Xiaoliang Xu, et al. *ICDE 2024*. [[Paper](https://doi.org/10.1109/ICDE60146.2024.00361)]
 1. **Explainable Multi-Modal Data Exploration in Natural Language via LLM Agent**
    Farhad Nooralahzadeh, Yi Zhang, Jonathan Furst, Kurt Stockinger. *arXiv 2024*. [[Paper](https://doi.org/10.48550/arXiv.2412.18428)]
-
 
