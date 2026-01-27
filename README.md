@@ -2,7 +2,7 @@
 
 [English](README.md) | [中文](README_CN.md)
 
-> A collection of papers and projects related to LLMs and corresponding data-centric methods. [![arXiv](https://camo.githubusercontent.com/dc1f84975e5d05724930d5c650e4b6eaea49e9f4c03d00de50bd7bf950394b4f/68747470733a2f2f68756767696e67666163652e636f2f64617461736574732f68756767696e67666163652f6261646765732f7261772f6d61696e2f70617065722d706167652d736d2d6461726b2e737667)](https://arxiv.org/abs/2505.18458)
+> A collection of papers and projects related to LLMs and corresponding data-centric methods. [![arXiv](https://upload.wikimedia.org/wikipedia/commons/b/bc/ArXiv_logo_2022.svg)](https://arxiv.org/abs/2505.18458)
 >
 > Other publicly-available materials: [[Slides]](./assets/DATA4LLM-10-22-en.pdf)
 >
@@ -34,13 +34,13 @@
 
 ## 🌤 The IaaS Concept of DATA4LLM
 
-The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Service*) defines the characteristics of high-quality datasets along four key dimensions: (1) **Inclusiveness** ensures broad coverage across domains, tasks, sources, languages, styles, and modalities. (2) **Abundance** emphasizes sufficient and well-balanced data volume to support scaling, fine-tuning, and continual learning without overfitting. (3) **Articulation** requires clear, coherent, and instructive content with step-by-step reasoning to enhance model understanding and task performance. (4) **Sanitization** involves rigorous filtering to remove private, toxic, unethical, and misleading content, ensuring data safety, neutrality, and compliance. [![arXiv](https://camo.githubusercontent.com/dc1f84975e5d05724930d5c650e4b6eaea49e9f4c03d00de50bd7bf950394b4f/68747470733a2f2f68756767696e67666163652e636f2f64617461736574732f68756767696e67666163652f6261646765732f7261772f6d61696e2f70617065722d706167652d736d2d6461726b2e737667)](https://arxiv.org/abs/2505.18458)
+The **IaaS** concept for LLM data (phonetically echoing *Infrastructure as a Service*) defines the characteristics of high-quality datasets along four key dimensions: (1) **Inclusiveness** ensures broad coverage across domains, tasks, sources, languages, styles, and modalities. (2) **Abundance** emphasizes sufficient and well-balanced data volume to support scaling, fine-tuning, and continual learning without overfitting. (3) **Articulation** requires clear, coherent, and instructive content with step-by-step reasoning to enhance model understanding and task performance. (4) **Sanitization** involves rigorous filtering to remove private, toxic, unethical, and misleading content, ensuring data safety, neutrality, and compliance. [![arXiv](https://upload.wikimedia.org/wikipedia/commons/b/bc/ArXiv_logo_2022.svg)](https://arxiv.org/abs/2505.18458)
 
 [![Cover](https://github.com/SUPERZJ827/LLM4DB/raw/main/assets/iaas_overview_v2.png)](https://github.com/SUPERZJ827/LLM4DB/blob/main/assets/iaas_overview_v2.png)
 
 ## 🌟 LLM/Agent-as-Data-Analyst
 
-We observe the evolution of **LLM/Agent-as-Data-Analyst** techniques follows a five-dimension trajectory: (1) Data Modality (homogeneous → heterogeneous); (2) Analysis Functionality (literal → semantic); (3) Knowledge Scope (closed-world →open-world); (4) Tool Integration (tool-coupled → tool-assisted); (5) Development Autonomy (manual → fully autonomous). [![arXiv](https://camo.githubusercontent.com/dc1f84975e5d05724930d5c650e4b6eaea49e9f4c03d00de50bd7bf950394b4f/68747470733a2f2f68756767696e67666163652e636f2f64617461736574732f68756767696e67666163652f6261646765732f7261772f6d61696e2f70617065722d706167652d736d2d6461726b2e737667)](https://arxiv.org/abs/2509.23988)
+We observe the evolution of **LLM/Agent-as-Data-Analyst** techniques follows a five-dimension trajectory: (1) Data Modality (homogeneous → heterogeneous); (2) Analysis Functionality (literal → semantic); (3) Knowledge Scope (closed-world →open-world); (4) Tool Integration (tool-coupled → tool-assisted); (5) Development Autonomy (manual → fully autonomous). [![arXiv](https://upload.wikimedia.org/wikipedia/commons/b/bc/ArXiv_logo_2022.svg)](https://arxiv.org/abs/2509.23988)
 
 [![Cover2](assets/data_analysis_survey_v2.png)](assets/data_analysis_survey_v2.png)
 
@@ -51,7 +51,7 @@ We present a systematic survey of **LLM-enhanced data preparation**, an emerging
 - **(2) Task-Centric Taxonomy:** We organize existing methods into data cleaning, data integration, and data enrichment;  
 - **(3) Methodological Survey:** We review representative techniques for each task, highlighting their strengths and limitations; 
 - **(4) Empirical Landscape Analysis:** We examine commonly used datasets and evaluation practices; 
-- **(5) Research Roadmap:** We outline open challenges and future directions toward scalable, reliable, and robust LLM-based data preparation systems. [![arXiv](https://camo.githubusercontent.com/dc1f84975e5d05724930d5c650e4b6eaea49e9f4c03d00de50bd7bf950394b4f/68747470733a2f2f68756767696e67666163652e636f2f64617461736574732f68756767696e67666163652f6261646765732f7261772f6d61696e2f70617065722d706167652d736d2d6461726b2e737667)](https://arxiv.org/abs/2601.17058)
+- **(5) Research Roadmap:** We outline open challenges and future directions toward scalable, reliable, and robust LLM-based data preparation systems. [![arXiv](https://upload.wikimedia.org/wikipedia/commons/b/bc/ArXiv_logo_2022.svg)](https://arxiv.org/abs/2601.17058)
 
 [![Cover3](assets/llm_data_preparation_survey_overview.jpg)](assets/llm_data_preparation_survey_overview.jpg)
 
@@ -2331,5 +2331,6 @@ Synthesize reasoning steps using, e.g., CoT.
    Mengzhao Wang, Xiangyu Ke, Xiaoliang Xu, et al. *ICDE 2024*. [[Paper](https://doi.org/10.1109/ICDE60146.2024.00361)]
 1. **Explainable Multi-Modal Data Exploration in Natural Language via LLM Agent**
    Farhad Nooralahzadeh, Yi Zhang, Jonathan Furst, Kurt Stockinger. *arXiv 2024*. [[Paper](https://doi.org/10.48550/arXiv.2412.18428)]
+
 
 
