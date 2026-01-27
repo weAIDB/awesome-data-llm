@@ -1182,7 +1182,7 @@
 
 [⬆️返回目录](#目录)
 
-#### 4.2.1 LLM 用于配置调优
+#### 4.3.1 LLM 用于配置调优
 
 1. **ELMo-Tune-V2: LLM-Assisted Full-Cycle Auto-Tuning to Optimize LSM-Based Key-Value Stores** 
     Viraj Thakkar, Qi Lin, Kenanya Keandra Adriel Prasetyo, et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2502.17606)]
@@ -1215,7 +1215,7 @@
 
 
 
-#### 4.2.2 LLM 用于查询优化
+#### 4.3.2 LLM 用于查询优化
 
 ##### 面向优化的 Prompt 工程
 
@@ -1233,7 +1233,7 @@
 
 
 
-#### 4.2.3 LLM 用于异常诊断
+#### 4.3.3 LLM 用于异常诊断
 
 ##### 人工设计的诊断 Prompt
 
