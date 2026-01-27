@@ -2,9 +2,7 @@
 
 [English](README.md) | [中文](README_CN.md)
 
-> A collection of papers and projects related to LLMs and corresponding data-centric methods. <a href="https://arxiv.org/abs/2505.18458">
-  <img src="assets/ArXiv_logo_2022.svg" alt="arXiv" width="80">
-</a>
+> A collection of papers and projects related to LLMs and corresponding data-centric methods. [![arXiv](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/ArXiv_logo_2022.svg/330px-ArXiv_logo_2022.svg.png)](https://arxiv.org/abs/2505.18458)
 >
 > Other publicly-available materials: [[Slides]](./assets/DATA4LLM-10-22-en.pdf)
 >
@@ -2333,6 +2331,7 @@ Synthesize reasoning steps using, e.g., CoT.
    Mengzhao Wang, Xiangyu Ke, Xiaoliang Xu, et al. *ICDE 2024*. [[Paper](https://doi.org/10.1109/ICDE60146.2024.00361)]
 1. **Explainable Multi-Modal Data Exploration in Natural Language via LLM Agent**
    Farhad Nooralahzadeh, Yi Zhang, Jonathan Furst, Kurt Stockinger. *arXiv 2024*. [[Paper](https://doi.org/10.48550/arXiv.2412.18428)]
+
 
 
 
