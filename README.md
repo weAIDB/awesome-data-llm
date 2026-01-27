@@ -89,7 +89,7 @@ We present a systematic survey of **LLM-enhanced data preparation**, an emerging
   - [3.4 Data Provenance](#34-data-provenance)
 - [4 LLM for Data Management](#4-llm-for-data-management)
   
-  - [4.1 LLM for Data Preparation / Manipulation](#41-llm-for-data-preparation-/-manipulation)
+  - [4.1 LLM for Data Preparation / Manipulation](#41-llm-for-data-preparation--manipulation)
   - [4.2 LLM for Analysis](#42-llm-for-data-analysis)
   - [4.3 LLM for Data System Optimization](#43-llm-for-data-system-optimization)
 - [5 LLM as Data Analyst](#5-llm-as-data-analyst)
@@ -2331,4 +2331,5 @@ Synthesize reasoning steps using, e.g., CoT.
    Mengzhao Wang, Xiangyu Ke, Xiaoliang Xu, et al. *ICDE 2024*. [[Paper](https://doi.org/10.1109/ICDE60146.2024.00361)]
 1. **Explainable Multi-Modal Data Exploration in Natural Language via LLM Agent**
    Farhad Nooralahzadeh, Yi Zhang, Jonathan Furst, Kurt Stockinger. *arXiv 2024*. [[Paper](https://doi.org/10.48550/arXiv.2412.18428)]
+
 
