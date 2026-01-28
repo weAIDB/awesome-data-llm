@@ -70,7 +70,7 @@
   - [1.1 数据获取](#11-数据获取)
   - [1.2 数据去重](#12-数据去重)
   - [1.3 数据过滤](#13-数据过滤)
-  - [1.4 数据选择](#14-数据选择)
+  - [1.4 数据领域选择](#14-数据领域选择)
   - [1.5 数据混合](#15-数据混合)
   - [1.6 数据蒸馏与合成](#16-数据蒸馏与合成)
   - [1.7 端到端数据处理流水线](#17-端到端数据处理流水线)
@@ -87,14 +87,18 @@
   - [3.3 数据打包](#33-数据打包)
   - [3.4 数据溯源](#34-数据溯源)
 - [4 面向数据管理的 LLM](#4-面向数据管理的-llm)
-  - [4.1 LLM 用于数据准备 / 操作](#41-llm-用于数据准备--操作)
-  - [4.2 LLM 用于数据分析](#42-llm-用于数据分析)
-  - [4.3 LLM 用于数据系统优化](#43-llm-用于数据系统优化)
+  - [4.1 LLM 用于数据分析](#41-llm-用于数据分析)
+  - [4.2 LLM 用于数据系统优化](#42-llm-用于数据系统优化)
 - [5 LLM 作为数据分析师](#5-llm-作为数据分析师)
   - [5.1 LLM 用于结构化数据分析](#51-llm-用于结构化数据分析)
   - [5.2 LLM 用于半结构化数据分析](#52-llm-用于半结构化数据分析)
   - [5.3 LLM 用于非结构化数据分析](#53-llm-用于非结构化数据分析)
   - [5.4 LLM 用于异构数据分析](#54-llm-用于异构数据分析)
+- [6 LLM 增强的应用就绪数据准备](#6-LLM-增强的应用就绪数据准备)
+  - [6.1 数据清洗](#61-数据清洗)
+  - [6.2 数据集成](#62-数据集成)
+  - [6,3 数据增强](#63-数据增强)
+
 
 ## 数据集
 
@@ -197,9 +201,9 @@
 
 ## 1 面向 LLM 的数据处理
 
-[⬆️返回目录](#目录)
-
 ### 1.1 数据获取
+
+[⬆️返回目录](#目录)
 
 #### 数据来源
 
@@ -417,7 +421,7 @@
 
 
 
-### 1.4 数据选择
+### 1.4 数据领域选择
 
 [⬆️返回目录](#目录)
 
@@ -667,9 +671,9 @@
 
 ## 2 面向 LLM 的数据存储
 
-[⬆️返回目录](#目录)
-
 ### 2.1 数据格式
+
+[⬆️返回目录](#目录)
 
 #### 训练数据格式
 
@@ -826,9 +830,9 @@
 
 ## 3 面向 LLM 的数据服务
 
-[⬆️返回目录](#目录)
-
 ### 3.1 数据混洗
+
+[⬆️返回目录](#目录)
 
 #### 训练数据混洗
 
@@ -924,125 +928,13 @@
 
 ## 4 面向数据管理的 LLM
 
-[⬆️返回目录](#目录)
-
-### 4.1 LLM 用于数据准备 / 操作
-
-#### 4.1.1 数据清洗
-
-##### 4.1.1.1 数据标准化
-
-1. **CleanAgent: Automating Data Standardization with LLM-based Agents** Danrui Qi, Jiannan Wang. *arXiv 2024.* [[Paper](https://arxiv.org/pdf/2403.08291)]
-   
-2. **AutoDCWorkflow: LLM-based Data Cleaning Workflow Auto-Generation and Benchmark** Lan Li, Liri Fang, Vetle I. Torvik. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2412.06724)]
-3. **Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes** Simran Arora, Brandon Yang, Sabri Eyuboglu, et al. *Proceedings of the VLDB Endowment, Volume 17, Issue 2, Pages 92 - 105 (2023)*. [[Paper](https://doi.org/10.14778/3626292.3626294)]
-4. **LLMs with User-defined Prompts as Generic Data Operators for Reliable Data Processing** Luyi Ma, et al. *1st IEEE International Workshop on Data Engineering and Modeling for AI (DEMAI), IEEE BigData 2023.* [[Paper](https://arxiv.org/abs/2312.16351)]
-5. **Large language models as data preprocessors** Zhang, Haochen, et al. *arXiv 2023*. [[Paper](https://arxiv.org/abs/2308.16361)]
-
-##### 4.1.1.2 数据错误处理
-
-1. **Ensembling LLM-Induced Decision Trees for Explainable and Robust Error Detection** Mengqi Wang, Jianwei Wang, Qing Liu, et al. *arXiv 2025*. [[Paper](https://doi.org/10.48550/arXiv.2512.07246)]
-   
-2. **ZeroED: Hybrid Zero-Shot Error Detection Through Large Language Model Reasoning** Wei Ni, Kaihang Zhang, Xiaoye Miao, et al. *ICDE 2025*. [[Paper](https://doi.org/10.1109/ICDE65448.2025.00234)]
-3. **Exploring LLM Agents for Cleaning Tabular Machine Learning Datasets** Tommaso Bendinelli, Artur Dox, Christian Holz. *ICLR 2025 Workshop on Foundation Models in the Wild*. [[Paper](https://doi.org/10.48550/arXiv.2503.06664)]
-4. **Data Cleaning Using Large Language Models** Shuo Zhang, Zezhou Huang, Eugene Wu. *ICDE Workshops 2025*. [[Paper](https://doi.org/10.1109/ICDEW67478.2025.00008)]
-5. **GIDCL: A Graph-Enhanced Interpretable Data Cleaning Framework with Large Language Models** Mengyi Yan, et al. *Proceedings of the ACM on Management of Data, Volume 2, Issue 6, 2024.* [[Paper](https://dl.acm.org/doi/10.1145/3698811)]
-6. **Multi-News+: Cost-efficient Dataset Cleansing via LLM-based Data Annotation** Juhwan Choi, Jungmin Yun, Kyohoon Jin, et al. *EMNLP 2024*. [[Paper](https://arxiv.org/abs/2404.09682)]
-7. **Anomaly Detection of Tabular Data Using LLMs** Aodong Li, Yunhan Zhao, Chen Qiu, et al. *Anomaly Detection with Foundation Models Workshop (ICML 2024)*. [[Paper](https://doi.org/10.48550/arXiv.2406.16308)]
-8. **Cleaning Semi-Structured Errors in Open Data Using Large Language Models** M. Mondal, J. Audiffren, L. Dolamic, et al, *2024 11th IEEE Swiss Conference on Data Science (SDS), 2024*. [[Paper](https://ieeexplore.ieee.org/abstract/document/10675754)]
-9. **IterClean: An Iterative Data Cleaning Framework with Large Language Models** Wei Ni, et al. *Proceedings of the ACM Turing Award Celebration Conference - China 2024*. [[Paper](https://dl.acm.org/doi/abs/10.1145/3674399.3674436)]
-10. **LLMClean: Context-Aware Tabular Data Cleaning via LLM-Generated OFDs** Fabian Biester, Mohamed Abdelaal, Daniel Del Gaudio. *arXiv 2024.* [[Paper](https://arxiv.org/abs/2404.18681)]
-
-##### 4.1.1.3 数据填补
-
-1. **Data Imputation with Limited Data Redundancy Using Data Lakes** Chenyu Yang, Yuyu Luo, Chuanxuan Cui, et al. *Proc. VLDB Endow. 2025*. [[Paper](https://doi.org/10.14778/3748191.3748200)]
-   
-2. **On LLM-Enhanced Mixed-Type Data Imputation with High-Order Message Passing** Jianwei Wang, Kai Wang, Ying Zhang, et al. *Proc. VLDB Endow., Vol. 18, No. 10, pp. 3421-3434 (2025)*. [[Paper](https://doi.org/10.14778/3748191.3748205)]
-3. **LLM-Forest: Ensemble Learning of LLMs with Graph-Augmented Prompts for Data Imputation** Xinrui He, Yikun Ban, Jiaru Zou, et al. *Findings of ACL 2025*. [[Paper](https://aclanthology.org/2025.findings-acl.361/)]
-4. **A Context-Aware Approach for Enhancing Data Imputation with Pre-trained Language Models** Ahatsham Hayat, Mohammad R. Hasan. *COLING 2025, pp. 5668-5685 (2025)*. [[Paper](https://aclanthology.org/2025.coling-main.380/)]
-5. **LDI: Localized Data Imputation for Text-Rich Tables** Soroush Omidvartehrani, Davood Rafiei. *arXiv 2025*. [[Paper](https://doi.org/10.48550/arXiv.2506.16616)]
-6. **Quantum-Accelerated Neural Imputation with Large Language Models (LLMs)** Hossein Jamali. *arXiv 2025*. [[Paper](https://doi.org/10.48550/arXiv.2507.08255)]
-7. **Does Prompt Design Impact Quality of Data Imputation by LLMs?** Srinivasan, Shreenidhi, and Lydia Manikonda. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2506.04172)]
-8. **RetClean: Retrieval-Based Data Cleaning Using LLMs and Data Lakes** Zan Ahmad Naeem, et al. *VLDB Endowment 2024*. [[Paper](https://dl.acm.org/doi/10.14778/3685800.3685890)]
-9. **Data Imputation using Large Language Model to Accelerate Recommendation System** Zhicheng Ding, Jiahao Tian, Zhenkai Wang, et al. *arXiv 2024*. [[Paper](https://doi.org/10.48550/arXiv.2407.10078)]
-
-#### 4.1.2 数据集成
-
-##### 4.1.2.1 实体匹配
-
-1. **In-context Clustering-based Entity Resolution with Large Language Models: A Design Space Exploration** Jiajie Fu, Haitong Tang, Arijit Khan, et al. *Proceedings of the ACM on Management of Data, Volume 3, Issue 4, 2025*. [[Paper](https://doi.org/10.1145/3749170)]
-   
-2. **Fine-tuning Large Language Models with Contrastive Margin Ranking Loss for Selective Entity Matching in Product Data Integration** Qian Ruan, Dachuan Shi, Thomas Bauernhansl. *Advanced Engineering Informatics 2025*. [[Paper](https://doi.org/10.1016/j.aei.2025.103538)]
-3. **LLMAEL: Large Language Models are Good Context Augmenters for Entity Linking** Amy Xin, Yunjia Qi, Zijun Yao, et al. *CIKM 2025*. [[Paper](https://doi.org/10.1145/3746252.3761156)]
-4. **A Deep Dive Into Cross-Dataset Entity Matching with Large and Small Language Models** Zhang, Zeyu, et al. *International Conference on Extending Database Technology (EDBT) 2025.* [[Paper](https://deem.berlin/publication/2025-02-05-a-deep-dive-into-cross-dataset-em-with-small-and-large-language-models-edbt/)]
-5. **Large Language Models for Data Discovery and Integration: Challenges and Opportunities** Freire, Juliana, et al. *IEEE Data Eng. Bull. 49(1): 3-31 (2025)*. [[Paper](http://sites.computer.org/debull/A25mar/p3.pdf)]
-6. **Entity matching using large language models** Ralph Peeters, Christian Bizer. *EDBT 2025.* [[Paper](https://arxiv.org/abs/2310.11244)]
-7. **Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching** Tianshu Wang, Hongyu Lin, Xiaoyang Chen, et al. *COLING 2025.* [[Paper](https://aclanthology.org/2025.coling-main.8/)]
-8. **Cost-Effective In-Context Learning for Entity Resolution: A Design Space Exploration** Meihao Fan, Xiaoyue Han, Ju Fan, et al. *ICDE 2024.* [[Paper](https://ieeexplore.ieee.org/document/10597751)]
-9. **Jellyfish: A Large Language Model for Data Preprocessing** Haochen Zhang, Yuyang Dong, Chuan Xiao, et al. *EMNLP 2024.* [[Paper](https://arxiv.org/abs/2312.01678)]
-10. **ChatEL: Entity Linking with Chatbots** Yifan Ding, Qingkai Zeng, Tim Weninger. *LREC/COLING 2024*. [[Paper](http://www.lrec-conf.org/proceedings/lrec-coling-2024/pdf/2024.main-1.275.pdf)]
-11. **KcMF: A Knowledge-compliant Framework for Schema and Entity Matching with Fine-tuning-free LLMs** Yongqin Xu, Huan Li, Ke Chen, Lidan Shou. *arXiv 2024.* [[Paper](https://arxiv.org/abs/2410.12480)]
-12. **Fine-tuning Large Language Models for Entity Matching** Steiner, Aaron, Ralph Peeters, et al. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2409.08185)]
-
-##### 4.1.2.2 模式匹配
-
-1. **Towards Scalable Schema Mapping using Large Language Models** Christopher Buss, Mahdis Safari, Arash Termehchy, et al. *MIDAS ’25 Workshop, pp. 12-15 (2025)*. [[Paper](https://doi.org/10.1145/3737412.3743490)]
-2. **Interactive Data Harmonization with LLM Agents: Opportunities and Challenges** Aécio Santos, Eduardo H. M. Pena, Roque Lopez, Juliana Freire. *NOVAS '25, Berlin, Germany (2025)*. [[Paper](https://doi.org/10.1145/3735079.3735324)]
-3. **SCHEMORA: Schema Matching via Multi-stage Recommendation and Metadata Enrichment using Off-the-Shelf LLMs** Osman Erman Gungor, Derak Paulsen, William Kang. *arXiv 2025.* [[Paper](https://arxiv.org/abs/2507.14376v1)]
-4. **Knowledge Graph-based Retrieval-Augmented Generation for Schema Matching** Chuangtao Ma, Sriom Chakrabarti, Arijit Khan, et al. *arXiv 2025.* [[Paper](https://arxiv.org/abs/2501.08686)]
-5. **TableLlama: Towards Open Large Generalist Models for Tables** Tianshu Zhang, Xiang Yue, Yifei Li, et al. *NAACL 2024*. [[Paper](https://doi.org/10.48550/arXiv.2311.09206)]
-6. **Schema Matching with Large Language Models: an Experimental Study** Marcel Parciak, Brecht Vandevoort, Frank Neven, et al. *TaDA 2024 Workshop, collocated with VLDB 2024.* [[Paper](https://doi.org/10.48550/arXiv.2407.11852)]
-7. **Magneto: Combining Small and Large Language Models for Schema Matching** Yurong Liu, Eduardo Pena, Aecio Santos, et al. *VLDB Endowment 2024.* [[Paper](https://www.vldb.org/pvldb/vol17/p2750-fan.pdf)]
-8. **Agent-OM: Leveraging LLM Agents for Ontology Matching** Zhangcheng Qiang, et al. *Proceedings of the VLDB Endowment, Volume 18, Issue 3, 2024.* [[Paper](https://dl.acm.org/doi/10.14778/3712221.3712222)]
-9. **Matchmaker: Self-Improving Large Language Model Programs for Schema Matching** Nabeel Seedat, Mihaela van der Schaar. *NeurIPS 2024 (GenAI for Health & Table Representation Learning Workshops)*. [[Paper](https://doi.org/10.48550/arXiv.2410.24105)]
-10. **TableGPT2: A Large Multimodal Model with Tabular Data Integration** Aofeng Su, Aowen Wang, Chao Ye, et al. *arXiv 2024.* [[Paper](https://doi.org/10.48550/arXiv.2411.02059)]
-
-#### 4.1.3 数据发现
-
-##### 4.1.3.1 数据标注
-
-1. **LLMLog: Advanced Log Template Generation via LLM-Driven Multi-Round Annotation** Fei Teng, Haoyang Li, Lei Chen. *Proc. VLDB Endow. 2025*. [[Paper](https://doi.org/10.14778/3746405.3746433)]
-2. **Birdie: Natural Language-Driven Table Discovery Using Differentiate Search Index** Yuxiang Guo, Zhonghao Hu, Yuren Mao, et al. *Proc. VLDB Endow. 2025*. [[Paper](https://doi.org/10.14778/3734839.3734845)]
-3. **The Promises and Pitfalls of LLM Annotations in Dataset Labeling: a Case Study on Media Bias Detection** Tomáš Horych, Christoph Mandl, Terry Ruas, et al. *NAACL 2025 Findings, pp. 1370-1386 (2025)*. [[Paper](https://aclanthology.org/2025.findings-naacl.75/)]
-4. **Mind the Data Gap: Bridging LLMs to Enterprise Data Integration** Moe Kayali, Fabian Wenz, Nesime Tatbul, et al. *CIDR 2025.* [[Paper](https://arxiv.org/abs/2412.20331)]
-5. **Open-Source LLMs for Text Annotation: A Practical Guide for Model Setting and Fine-Tuning** Alizadeh, Meysam, et al. *Journal of Computational Social Science* 8.1 (2025): 1-25. [[Paper](https://arxiv.org/abs/2307.02179)]
-6. **Robust LLM-based Column Type Annotation via Prompt Augmentation with LoRA Tuning** Hanze Meng, Jianhao Cao, Rachel Pottinger. *arXiv 2025*. [[Paper](https://doi.org/10.48550/arXiv.2512.22742)]
-7. **Evaluating Knowledge Generation and Self-Refinement Strategies for LLM-based Column Type Annotation** Keti Korini, Christian Bizer. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2503.02718)]
-8. **LLMs as Data Annotators: How Close Are We to Human Performance** Haq, Muhammad Uzair Ul, Davide Rigoni, et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2504.15022)]
-9. **From LLM-anation to LLM-orchestrator: Coordinating Small Models for Data Labeling** Yao Lu, Zhaiyuan Ji, Jiawei Du, et al. *arXiv 2025*. [[Paper](https://doi.org/10.48550/arXiv.2506.16393)]
-10. **Columbo: Expanding Abbreviated Column Names for Tabular Data Using Large Language Models** Ting Cai, Stephen Sheen, AnHai Doan. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2508.09403v2)]
-11. **An LLM Agent-Based Complex Semantic Table Annotation Approach** Yilin Geng, Shujing Wang, Chuan Wang, et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2508.12868)]
-12. **Prompt Candidates, then Distill: A Teacher-Student Framework for LLM-driven Data Annotation** Xia, Mingxuan, et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2506.03857)]
-13. **ArcheType: A Novel Framework for Open-Source Column Type Annotation Using Large Language Models** Benjamin Feuer, Yurong Liu, Chinmay Hegde, et al. *Proc. VLDB Endow. 2024*. [[Paper](https://doi.org/10.14778/3665844.3665857)]
-14. **CHORUS: Foundation Models for Unified Data Discovery and Exploration** Moe Kayali, et al. *Proceedings of the VLDB Endowment, Volume 17, Issue 8, 2024.* [[Paper](https://dl.acm.org/doi/10.14778/3659437.3659461)]
-15. **AutoLabel: Automated Textual Data Annotation Method Based on Active Learning and Large Language Model** Ming, Xuran, et al. *International Conference on Knowledge Science, Engineering and Management*. 2024. [[Paper](https://dl.acm.org/doi/10.1007/978-981-97-5501-1_30)]
-16. **RACOON: An LLM-based Framework for Retrieval-Augmented Column Type Annotation with a Knowledge Graph** Lindsey Linxi Wei, Guorui Xiao, Magdalena Balazinska. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2409.14556)]
-17. **Decoding Time Series with LLMs: A Multi-Agent Framework for Cross-Domain Annotation** Minhua Lin, Zhengzhang Chen, Yanchi Liu, et al. *arXiv 2024*. [[Paper](https://doi.org/10.48550/arXiv.2410.17462)]
-18. **Large Language Models as Annotators: Enhancing Generalization of NLP Models at Minimal Cost** Bansal, Parikshit, and Amit Sharma. *arXiv 2023*. [[Paper](https://arxiv.org/abs/2306.15766)]
-
-##### 4.1.3.2 数据剖析
-
-1. **Octopus: A Lightweight Entity-Aware System for Multi-Table Data Discovery and Cell-Level Retrieval** Wen-Zhi Li, Sainyam Galhotra. *arXiv 2026*. [[Paper](https://doi.org/10.48550/arXiv.2601.02304)]
-2. **HyperJoin: LLM-augmented Hypergraph Link Prediction for Joinable Table Discovery** Shiyuan Liu, Jianwei Wang, Xuemin Lin, et al. *arXiv 2026*. [[Paper](https://doi.org/10.48550/arXiv.2601.01015)]
-3. **Pneuma: Leveraging LLMs for Tabular Data Representation and Retrieval in an End-to-End System** Muhammad Imam Luthfi Balaka, David Alexander, Qiming Wang, et al. *SIGMOD 2025*. [[Paper](https://dl.acm.org/doi/10.1145/3725337)]
-4. **LLMDap: LLM-based Data Profiling and Sharing** Shanshan Jiang, Sondre Sørbø, Phil Tinn, et al. *VLDB 2025 Workshop: 3rd Data EConomy Workshop (DEC)*. [[Paper](https://www.vldb.org/2025/Workshops/VLDB-Workshops-2025/DEC/DEC25_5.pdf)]
-5. **Hierarchical Table Semantics for Exploratory Table Discovery** Grace Fan, Juliana Freire. *HILDA 2025*. [[Paper](https://doi.org/10.1145/3736733.3736746)]
-6. **Flexible Metadata Harvesting for Ecology Using Large Language Models** Zehao Lu, Thijs L van der Plas, Parinaz Rashidi, et al. *EcoDL 2025 Workshop*. [[Paper](https://doi.org/10.48550/arXiv.2508.20115)]
-7. **AutoDDG: Automated Dataset Description Generation using Large Language Models** Haoxiang Zhang, Yurong Liu, Wei-Lun (Allen) Hung, et al. *arXiv 2025.* [[Paper](https://arxiv.org/abs/2502.01050)]
-8. **LEDD: Large Language Model-Empowered Data Discovery in Data Lakes** Qi An, Chihua Ying, Yuqing Zhu, et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2502.15182)]
-9. **LLM-Aided Customizable Profiling of Code Data Based On Programming Language Concepts** Thorat, Pankaj, et al. *arXiv 2025.* [[Paper](https://arxiv.org/abs/2503.15571)]
-10. **Cocoon: Semantic Table Profiling Using Large Language Models** Huang, Zezhou, et al. *Proceedings of the 2024 Workshop on Human-In-the-Loop Data Analytics*. 2024. [[Paper](https://dl.acm.org/doi/abs/10.1145/3665939.3665957)]
-11. **DynoClass: A Dynamic Table-Class Detection System Without the Need for Predefined Ontologies** Haonan Wang, Eugene Wu, Kechen Liu, et al. *TRL @ NeurIPS 2024 Poster*. [[Paper](https://openreview.net/forum?id=r45TbawHl8#discussion)]
-
-
-
-### 4.2 LLM 用于数据分析
+### 4.1 LLM 用于数据分析
 
 [⬆️返回目录](#目录)
 
-#### 4.2.1 LLM 用于结构化数据分析
+#### 4.1.1 LLM 用于结构化数据分析
 
-##### 4.2.1.1 关系数据分析
+##### 4.1.1.1 关系数据分析
 
 ###### 自然语言接口的 LLM
 
@@ -1088,7 +980,7 @@
 
 
 
-##### 4.2.1.2 图数据分析
+##### 4.1.1.2 图数据分析
 
 1. **Blazegraph**：支持 RDF/SPARQL 查询的高性能图数据库，常用于语义网和知识图谱分析。[[Source](https://blazegraph.com/)]
 2. **GraphDB**：具有本体推理和 SPARQL 查询支持的三元组存储，广泛用于企业知识管理和语义搜索。[[Source](https://graphdb.ontotext.com/)]
@@ -1119,14 +1011,14 @@
 12. **Inductive representation learning on large graphs** William L. Hamilton, Rex Ying, Jure Leskovec. *NeurIPS 2017.* [[Paper](https://dl.acm.org/doi/10.5555/3294771.3294869)]
 13. **Semi-Supervised Classification with Graph Convolutional Networks** Thomas N. Kipf, Max Welling. *ICLR 2017.* [[Paper](https://doi.org/10.48550/arXiv.1609.02907)]
 
-#### 4.2.2 LLM 用于半结构化数据分析
+#### 4.1.2 LLM 用于半结构化数据分析
 
 1. **ST-Raptor: LLM-Powered Semi-Structured Table Question Answering** Zirui Tang, Boyu Niu, Xuanhe Zhou, et al. *SIGMOD 2026.* (2025). [[Paper](https://arxiv.org/abs/2508.18190v3)]
 2. **Querying Semi-Structured Data** Serge Abiteboul. *ICDT 1997.* [[Paper](https://dl.acm.org/doi/10.5555/645502.656103)]
 
-##### 4.2.2.1 标记语言
+##### 4.1.2.1 标记语言
 
-##### 4.2.2.2 半结构化表格
+##### 4.1.2.2 半结构化表格
 
 1. **MiMoTable: A Multi-scale Spreadsheet Benchmark with Meta Operations for Table Reasoning** Zheng Li, Yang Du, Mao Zheng, et al. *COLING 2025.* [[Paper](https://doi.org/10.48550/arXiv.2412.11711)]
 2. **AOP: Automated and Interactive LLM Pipeline Orchestration for Answering Complex Queries** Jiayi Wang, Guoliang Li. *CIDR 2025* [[Paper](https://vldb.org/cidrdb/papers/2025/p32-wang.pdf)]
@@ -1135,9 +1027,9 @@
 
 
 
-#### 4.2.3 LLM 用于非结构化数据分析
+#### 4.1.3 LLM 用于非结构化数据分析
 
-##### 4.2.3.1 文档
+##### 4.1.3.1 文档
 
 1. **AOP: Automated and Interactive LLM Pipeline Orchestration for Answering Complex Queries** [[Paper](https://vldb.org/cidrdb/papers/2025/p32-wang.pdf)]
 2. **Focus Anywhere for Fine-grained Multi-page Document Understanding** [[Paper](https://arxiv.org/abs/2405.14295)]
@@ -1156,7 +1048,7 @@
 
 
 
-##### 4.2.3.2 程序语言分析
+##### 4.1.3.2 程序语言分析
 
 ###### 程序漏洞检测工具的 LLM
 
@@ -1177,12 +1069,11 @@
 6.  **Code Structure–Guided Transformer for Source Code Summarization** Shuzheng Gao, et al. *ACM Transactions on Software Engineering and Methodology 2023.* [[Paper](https://doi.org/10.1145/3522674)]
 7.  **RepoFusion: Training Code Models to Understand Your Repository** Disha Shrivastava, Denis Kocetkov, Harm de Vries, et al. *arXiv 2023.* [[Paper](https://doi.org/10.48550/arXiv.2306.10998)]
 
-
-### 4.3 LLM 用于数据系统优化
+### 4.2 LLM 用于数据系统优化
 
 [⬆️返回目录](#目录)
 
-#### 4.3.1 LLM 用于配置调优
+#### 4.2.1 LLM 用于配置调优
 
 1. **ELMo-Tune-V2: LLM-Assisted Full-Cycle Auto-Tuning to Optimize LSM-Based Key-Value Stores** 
     Viraj Thakkar, Qi Lin, Kenanya Keandra Adriel Prasetyo, et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2502.17606)]
@@ -1215,7 +1106,7 @@
 
 
 
-#### 4.3.2 LLM 用于查询优化
+#### 4.2.2 LLM 用于查询优化
 
 ##### 面向优化的 Prompt 工程
 
@@ -1233,7 +1124,7 @@
 
 
 
-#### 4.3.3 LLM 用于异常诊断
+#### 4.2.3 LLM 用于异常诊断
 
 ##### 人工设计的诊断 Prompt
 
@@ -1260,9 +1151,12 @@
 3. **LLM-Enhanced Data Management** Xuanhe Zhou, Xinyang Zhao, Guoliang Li. *arXiv 2024*. [[Paper](https://doi.org/10.48550/arXiv.2402.02643)]
 
 
+
 ## 5 LLM 作为数据分析师
 
 ### 5.1 LLM 用于结构化数据分析
+
+[⬆️返回目录](#目录)
 
 #### 5.1.1 关系数据
 
@@ -1430,8 +1324,9 @@
 1. **A Temporal Knowledge Graph Generation Dataset Supervised Distantly by Large Language Models** Jun Zhu, Yan Fu, Junlin Zhou, Duanbing Chen. *Scientific Data, 12:734 (2025)*. [[Paper](https://doi.org/10.1038/s41597-025-05062-0)]
 2. **A Framework for Large-Scale Synthetic Graph Dataset Generation** Sajad Darabi, Piotr Bigaj, Dawid Majchrowski, et al. *IEEE Transactions on Neural Networks and Learning Systems, Volume 36, Issue 8, Pages 14258 - 14268 (2025)*. [[Paper](https://doi.org/10.1109/TNNLS.2025.3540392)]
 
-
 ### 5.2 LLM 用于半结构化数据分析
+
+[⬆️返回目录](#目录)
 
 #### 5.2.1 标记语言（Markup Language）
 
@@ -1475,8 +1370,9 @@
 1. **ST-Raptor: LLM-Powered Semi-Structured Table Question Answering** [[Paper](https://arxiv.org/abs/2508.18190)]
 2. **SpreadsheetLLM: encoding spreadsheets for large language models** [[Paper](https://arxiv.org/abs/2407.09025)]
 
-
 ### 5.3 LLM 用于非结构化数据分析
+
+[⬆️返回目录](#目录)
 
 #### 5.3.1 图表分析（Chart Analysis）
 
@@ -1657,8 +1553,9 @@
 8. **Fantasia3D: Disentangling Geometry and Appearance for High-quality Text-to-3D Content Creation** Rui Chen, Yongwei Chen, Ningxin Jiao, Kui Jia. *ICCV 2023, pp. 22246-22256 (2023)*. [[Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Chen_Fantasia3D_Disentangling_Geometry_and_Appearance_for_High-quality_Text-to-3D_Content_Creation_ICCV_2023_paper.html)]
 9. **Zero-1-to-3: Zero-shot One Image to 3D Object** Ruoshi Liu, Rundi Wu, Basile Van Hoorick, et al. *ICCV 2023, pp. 9298-9309 (2023)*. [[Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Liu_Zero-1-to-3_Zero-shot_One_Image_to_3D_Object_ICCV_2023_paper.html)]
 
-
 ### 5.4 LLM 用于异构数据分析
+
+[⬆️返回目录](#目录)
 
 #### 5.4.1 LLM 用于模态对齐
 
@@ -1679,4 +1576,120 @@
 1. **An Interactive Multi-Modal Query Answering System with Retrieval-Augmented Large Language Models** Mengzhao Wang, Haotian Wu, Xiangyu Ke, et al. *Proc. VLDB Endow., Vol. 17, No. 12, pp. 4333-4336 (2024)*. [[Paper](https://doi.org/10.14778/3685800.3685868)]
 1. **MUST: An Effective and Scalable Framework for Multimodal Search of Target Modality** Mengzhao Wang, Xiangyu Ke, Xiaoliang Xu, et al. *ICDE 2024*. [[Paper](https://doi.org/10.1109/ICDE60146.2024.00361)]
 1. **Explainable Multi-Modal Data Exploration in Natural Language via LLM Agent** Farhad Nooralahzadeh, Yi Zhang, Jonathan Furst, Kurt Stockinger. *arXiv 2024*. [[Paper](https://doi.org/10.48550/arXiv.2412.18428)]
+
+
+
+## 6 LLM 增强的应用就绪数据准备
+
+### 6.1 数据清洗
+
+[⬆️返回目录](#目录)
+
+#### 6.1.1 数据标准化
+
+1. **CleanAgent: Automating Data Standardization with LLM-based Agents** Danrui Qi, Jiannan Wang. *arXiv 2024.* [[Paper](https://arxiv.org/pdf/2403.08291)]
+
+2. **AutoDCWorkflow: LLM-based Data Cleaning Workflow Auto-Generation and Benchmark** Lan Li, Liri Fang, Vetle I. Torvik. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2412.06724)]
+3. **Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes** Simran Arora, Brandon Yang, Sabri Eyuboglu, et al. *Proceedings of the VLDB Endowment, Volume 17, Issue 2, Pages 92 - 105 (2023)*. [[Paper](https://doi.org/10.14778/3626292.3626294)]
+4. **LLMs with User-defined Prompts as Generic Data Operators for Reliable Data Processing** Luyi Ma, et al. *1st IEEE International Workshop on Data Engineering and Modeling for AI (DEMAI), IEEE BigData 2023.* [[Paper](https://arxiv.org/abs/2312.16351)]
+5. **Large language models as data preprocessors** Zhang, Haochen, et al. *arXiv 2023*. [[Paper](https://arxiv.org/abs/2308.16361)]
+
+#### 6.1.2 数据错误处理
+
+1. **Ensembling LLM-Induced Decision Trees for Explainable and Robust Error Detection** Mengqi Wang, Jianwei Wang, Qing Liu, et al. *arXiv 2025*. [[Paper](https://doi.org/10.48550/arXiv.2512.07246)]
+
+2. **ZeroED: Hybrid Zero-Shot Error Detection Through Large Language Model Reasoning** Wei Ni, Kaihang Zhang, Xiaoye Miao, et al. *ICDE 2025*. [[Paper](https://doi.org/10.1109/ICDE65448.2025.00234)]
+3. **Exploring LLM Agents for Cleaning Tabular Machine Learning Datasets** Tommaso Bendinelli, Artur Dox, Christian Holz. *ICLR 2025 Workshop on Foundation Models in the Wild*. [[Paper](https://doi.org/10.48550/arXiv.2503.06664)]
+4. **Data Cleaning Using Large Language Models** Shuo Zhang, Zezhou Huang, Eugene Wu. *ICDE Workshops 2025*. [[Paper](https://doi.org/10.1109/ICDEW67478.2025.00008)]
+5. **GIDCL: A Graph-Enhanced Interpretable Data Cleaning Framework with Large Language Models** Mengyi Yan, et al. *Proceedings of the ACM on Management of Data, Volume 2, Issue 6, 2024.* [[Paper](https://dl.acm.org/doi/10.1145/3698811)]
+6. **Multi-News+: Cost-efficient Dataset Cleansing via LLM-based Data Annotation** Juhwan Choi, Jungmin Yun, Kyohoon Jin, et al. *EMNLP 2024*. [[Paper](https://arxiv.org/abs/2404.09682)]
+7. **Anomaly Detection of Tabular Data Using LLMs** Aodong Li, Yunhan Zhao, Chen Qiu, et al. *Anomaly Detection with Foundation Models Workshop (ICML 2024)*. [[Paper](https://doi.org/10.48550/arXiv.2406.16308)]
+8. **Cleaning Semi-Structured Errors in Open Data Using Large Language Models** M. Mondal, J. Audiffren, L. Dolamic, et al, *2024 11th IEEE Swiss Conference on Data Science (SDS), 2024*. [[Paper](https://ieeexplore.ieee.org/abstract/document/10675754)]
+9. **IterClean: An Iterative Data Cleaning Framework with Large Language Models** Wei Ni, et al. *Proceedings of the ACM Turing Award Celebration Conference - China 2024*. [[Paper](https://dl.acm.org/doi/abs/10.1145/3674399.3674436)]
+10. **LLMClean: Context-Aware Tabular Data Cleaning via LLM-Generated OFDs** Fabian Biester, Mohamed Abdelaal, Daniel Del Gaudio. *arXiv 2024.* [[Paper](https://arxiv.org/abs/2404.18681)]
+
+#### 6.1.3 数据填补
+
+1. **Data Imputation with Limited Data Redundancy Using Data Lakes** Chenyu Yang, Yuyu Luo, Chuanxuan Cui, et al. *Proc. VLDB Endow. 2025*. [[Paper](https://doi.org/10.14778/3748191.3748200)]
+
+2. **On LLM-Enhanced Mixed-Type Data Imputation with High-Order Message Passing** Jianwei Wang, Kai Wang, Ying Zhang, et al. *Proc. VLDB Endow., Vol. 18, No. 10, pp. 3421-3434 (2025)*. [[Paper](https://doi.org/10.14778/3748191.3748205)]
+3. **LLM-Forest: Ensemble Learning of LLMs with Graph-Augmented Prompts for Data Imputation** Xinrui He, Yikun Ban, Jiaru Zou, et al. *Findings of ACL 2025*. [[Paper](https://aclanthology.org/2025.findings-acl.361/)]
+4. **A Context-Aware Approach for Enhancing Data Imputation with Pre-trained Language Models** Ahatsham Hayat, Mohammad R. Hasan. *COLING 2025, pp. 5668-5685 (2025)*. [[Paper](https://aclanthology.org/2025.coling-main.380/)]
+5. **LDI: Localized Data Imputation for Text-Rich Tables** Soroush Omidvartehrani, Davood Rafiei. *arXiv 2025*. [[Paper](https://doi.org/10.48550/arXiv.2506.16616)]
+6. **Quantum-Accelerated Neural Imputation with Large Language Models (LLMs)** Hossein Jamali. *arXiv 2025*. [[Paper](https://doi.org/10.48550/arXiv.2507.08255)]
+7. **Does Prompt Design Impact Quality of Data Imputation by LLMs?** Srinivasan, Shreenidhi, and Lydia Manikonda. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2506.04172)]
+8. **RetClean: Retrieval-Based Data Cleaning Using LLMs and Data Lakes** Zan Ahmad Naeem, et al. *VLDB Endowment 2024*. [[Paper](https://dl.acm.org/doi/10.14778/3685800.3685890)]
+9. **Data Imputation using Large Language Model to Accelerate Recommendation System** Zhicheng Ding, Jiahao Tian, Zhenkai Wang, et al. *arXiv 2024*. [[Paper](https://doi.org/10.48550/arXiv.2407.10078)]
+
+### 6.2 数据集成
+
+[⬆️返回目录](#目录)
+
+#### 6.2.1 实体匹配
+
+1. **In-context Clustering-based Entity Resolution with Large Language Models: A Design Space Exploration** Jiajie Fu, Haitong Tang, Arijit Khan, et al. *Proceedings of the ACM on Management of Data, Volume 3, Issue 4, 2025*. [[Paper](https://doi.org/10.1145/3749170)]
+
+2. **Fine-tuning Large Language Models with Contrastive Margin Ranking Loss for Selective Entity Matching in Product Data Integration** Qian Ruan, Dachuan Shi, Thomas Bauernhansl. *Advanced Engineering Informatics 2025*. [[Paper](https://doi.org/10.1016/j.aei.2025.103538)]
+3. **LLMAEL: Large Language Models are Good Context Augmenters for Entity Linking** Amy Xin, Yunjia Qi, Zijun Yao, et al. *CIKM 2025*. [[Paper](https://doi.org/10.1145/3746252.3761156)]
+4. **A Deep Dive Into Cross-Dataset Entity Matching with Large and Small Language Models** Zhang, Zeyu, et al. *International Conference on Extending Database Technology (EDBT) 2025.* [[Paper](https://deem.berlin/publication/2025-02-05-a-deep-dive-into-cross-dataset-em-with-small-and-large-language-models-edbt/)]
+5. **Large Language Models for Data Discovery and Integration: Challenges and Opportunities** Freire, Juliana, et al. *IEEE Data Eng. Bull. 49(1): 3-31 (2025)*. [[Paper](http://sites.computer.org/debull/A25mar/p3.pdf)]
+6. **Entity matching using large language models** Ralph Peeters, Christian Bizer. *EDBT 2025.* [[Paper](https://arxiv.org/abs/2310.11244)]
+7. **Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching** Tianshu Wang, Hongyu Lin, Xiaoyang Chen, et al. *COLING 2025.* [[Paper](https://aclanthology.org/2025.coling-main.8/)]
+8. **Cost-Effective In-Context Learning for Entity Resolution: A Design Space Exploration** Meihao Fan, Xiaoyue Han, Ju Fan, et al. *ICDE 2024.* [[Paper](https://ieeexplore.ieee.org/document/10597751)]
+9. **Jellyfish: A Large Language Model for Data Preprocessing** Haochen Zhang, Yuyang Dong, Chuan Xiao, et al. *EMNLP 2024.* [[Paper](https://arxiv.org/abs/2312.01678)]
+10. **ChatEL: Entity Linking with Chatbots** Yifan Ding, Qingkai Zeng, Tim Weninger. *LREC/COLING 2024*. [[Paper](http://www.lrec-conf.org/proceedings/lrec-coling-2024/pdf/2024.main-1.275.pdf)]
+11. **KcMF: A Knowledge-compliant Framework for Schema and Entity Matching with Fine-tuning-free LLMs** Yongqin Xu, Huan Li, Ke Chen, Lidan Shou. *arXiv 2024.* [[Paper](https://arxiv.org/abs/2410.12480)]
+12. **Fine-tuning Large Language Models for Entity Matching** Steiner, Aaron, Ralph Peeters, et al. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2409.08185)]
+
+#### 6.2.2 模式匹配
+
+1. **Towards Scalable Schema Mapping using Large Language Models** Christopher Buss, Mahdis Safari, Arash Termehchy, et al. *MIDAS ’25 Workshop, pp. 12-15 (2025)*. [[Paper](https://doi.org/10.1145/3737412.3743490)]
+2. **Interactive Data Harmonization with LLM Agents: Opportunities and Challenges** Aécio Santos, Eduardo H. M. Pena, Roque Lopez, Juliana Freire. *NOVAS '25, Berlin, Germany (2025)*. [[Paper](https://doi.org/10.1145/3735079.3735324)]
+3. **SCHEMORA: Schema Matching via Multi-stage Recommendation and Metadata Enrichment using Off-the-Shelf LLMs** Osman Erman Gungor, Derak Paulsen, William Kang. *arXiv 2025.* [[Paper](https://arxiv.org/abs/2507.14376v1)]
+4. **Knowledge Graph-based Retrieval-Augmented Generation for Schema Matching** Chuangtao Ma, Sriom Chakrabarti, Arijit Khan, et al. *arXiv 2025.* [[Paper](https://arxiv.org/abs/2501.08686)]
+5. **TableLlama: Towards Open Large Generalist Models for Tables** Tianshu Zhang, Xiang Yue, Yifei Li, et al. *NAACL 2024*. [[Paper](https://doi.org/10.48550/arXiv.2311.09206)]
+6. **Schema Matching with Large Language Models: an Experimental Study** Marcel Parciak, Brecht Vandevoort, Frank Neven, et al. *TaDA 2024 Workshop, collocated with VLDB 2024.* [[Paper](https://doi.org/10.48550/arXiv.2407.11852)]
+7. **Magneto: Combining Small and Large Language Models for Schema Matching** Yurong Liu, Eduardo Pena, Aecio Santos, et al. *VLDB Endowment 2024.* [[Paper](https://www.vldb.org/pvldb/vol17/p2750-fan.pdf)]
+8. **Agent-OM: Leveraging LLM Agents for Ontology Matching** Zhangcheng Qiang, et al. *Proceedings of the VLDB Endowment, Volume 18, Issue 3, 2024.* [[Paper](https://dl.acm.org/doi/10.14778/3712221.3712222)]
+9. **Matchmaker: Self-Improving Large Language Model Programs for Schema Matching** Nabeel Seedat, Mihaela van der Schaar. *NeurIPS 2024 (GenAI for Health & Table Representation Learning Workshops)*. [[Paper](https://doi.org/10.48550/arXiv.2410.24105)]
+10. **TableGPT2: A Large Multimodal Model with Tabular Data Integration** Aofeng Su, Aowen Wang, Chao Ye, et al. *arXiv 2024.* [[Paper](https://doi.org/10.48550/arXiv.2411.02059)]
+
+### 6.3 数据增强
+
+[⬆️返回目录](#目录)
+
+#### 6.3.1 数据标注
+
+1. **LLMLog: Advanced Log Template Generation via LLM-Driven Multi-Round Annotation** Fei Teng, Haoyang Li, Lei Chen. *Proc. VLDB Endow. 2025*. [[Paper](https://doi.org/10.14778/3746405.3746433)]
+2. **Birdie: Natural Language-Driven Table Discovery Using Differentiate Search Index** Yuxiang Guo, Zhonghao Hu, Yuren Mao, et al. *Proc. VLDB Endow. 2025*. [[Paper](https://doi.org/10.14778/3734839.3734845)]
+3. **The Promises and Pitfalls of LLM Annotations in Dataset Labeling: a Case Study on Media Bias Detection** Tomáš Horych, Christoph Mandl, Terry Ruas, et al. *NAACL 2025 Findings, pp. 1370-1386 (2025)*. [[Paper](https://aclanthology.org/2025.findings-naacl.75/)]
+4. **Mind the Data Gap: Bridging LLMs to Enterprise Data Integration** Moe Kayali, Fabian Wenz, Nesime Tatbul, et al. *CIDR 2025.* [[Paper](https://arxiv.org/abs/2412.20331)]
+5. **Open-Source LLMs for Text Annotation: A Practical Guide for Model Setting and Fine-Tuning** Alizadeh, Meysam, et al. *Journal of Computational Social Science* 8.1 (2025): 1-25. [[Paper](https://arxiv.org/abs/2307.02179)]
+6. **Robust LLM-based Column Type Annotation via Prompt Augmentation with LoRA Tuning** Hanze Meng, Jianhao Cao, Rachel Pottinger. *arXiv 2025*. [[Paper](https://doi.org/10.48550/arXiv.2512.22742)]
+7. **Evaluating Knowledge Generation and Self-Refinement Strategies for LLM-based Column Type Annotation** Keti Korini, Christian Bizer. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2503.02718)]
+8. **LLMs as Data Annotators: How Close Are We to Human Performance** Haq, Muhammad Uzair Ul, Davide Rigoni, et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2504.15022)]
+9. **From LLM-anation to LLM-orchestrator: Coordinating Small Models for Data Labeling** Yao Lu, Zhaiyuan Ji, Jiawei Du, et al. *arXiv 2025*. [[Paper](https://doi.org/10.48550/arXiv.2506.16393)]
+10. **Columbo: Expanding Abbreviated Column Names for Tabular Data Using Large Language Models** Ting Cai, Stephen Sheen, AnHai Doan. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2508.09403v2)]
+11. **An LLM Agent-Based Complex Semantic Table Annotation Approach** Yilin Geng, Shujing Wang, Chuan Wang, et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2508.12868)]
+12. **Prompt Candidates, then Distill: A Teacher-Student Framework for LLM-driven Data Annotation** Xia, Mingxuan, et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2506.03857)]
+13. **ArcheType: A Novel Framework for Open-Source Column Type Annotation Using Large Language Models** Benjamin Feuer, Yurong Liu, Chinmay Hegde, et al. *Proc. VLDB Endow. 2024*. [[Paper](https://doi.org/10.14778/3665844.3665857)]
+14. **CHORUS: Foundation Models for Unified Data Discovery and Exploration** Moe Kayali, et al. *Proceedings of the VLDB Endowment, Volume 17, Issue 8, 2024.* [[Paper](https://dl.acm.org/doi/10.14778/3659437.3659461)]
+15. **AutoLabel: Automated Textual Data Annotation Method Based on Active Learning and Large Language Model** Ming, Xuran, et al. *International Conference on Knowledge Science, Engineering and Management*. 2024. [[Paper](https://dl.acm.org/doi/10.1007/978-981-97-5501-1_30)]
+16. **RACOON: An LLM-based Framework for Retrieval-Augmented Column Type Annotation with a Knowledge Graph** Lindsey Linxi Wei, Guorui Xiao, Magdalena Balazinska. *arXiv 2024*. [[Paper](https://arxiv.org/abs/2409.14556)]
+17. **Decoding Time Series with LLMs: A Multi-Agent Framework for Cross-Domain Annotation** Minhua Lin, Zhengzhang Chen, Yanchi Liu, et al. *arXiv 2024*. [[Paper](https://doi.org/10.48550/arXiv.2410.17462)]
+18. **Large Language Models as Annotators: Enhancing Generalization of NLP Models at Minimal Cost** Bansal, Parikshit, and Amit Sharma. *arXiv 2023*. [[Paper](https://arxiv.org/abs/2306.15766)]
+
+#### 6.3.2 数据剖析
+
+1. **Octopus: A Lightweight Entity-Aware System for Multi-Table Data Discovery and Cell-Level Retrieval** Wen-Zhi Li, Sainyam Galhotra. *arXiv 2026*. [[Paper](https://doi.org/10.48550/arXiv.2601.02304)]
+2. **HyperJoin: LLM-augmented Hypergraph Link Prediction for Joinable Table Discovery** Shiyuan Liu, Jianwei Wang, Xuemin Lin, et al. *arXiv 2026*. [[Paper](https://doi.org/10.48550/arXiv.2601.01015)]
+3. **Pneuma: Leveraging LLMs for Tabular Data Representation and Retrieval in an End-to-End System** Muhammad Imam Luthfi Balaka, David Alexander, Qiming Wang, et al. *SIGMOD 2025*. [[Paper](https://dl.acm.org/doi/10.1145/3725337)]
+4. **LLMDap: LLM-based Data Profiling and Sharing** Shanshan Jiang, Sondre Sørbø, Phil Tinn, et al. *VLDB 2025 Workshop: 3rd Data EConomy Workshop (DEC)*. [[Paper](https://www.vldb.org/2025/Workshops/VLDB-Workshops-2025/DEC/DEC25_5.pdf)]
+5. **Hierarchical Table Semantics for Exploratory Table Discovery** Grace Fan, Juliana Freire. *HILDA 2025*. [[Paper](https://doi.org/10.1145/3736733.3736746)]
+6. **Flexible Metadata Harvesting for Ecology Using Large Language Models** Zehao Lu, Thijs L van der Plas, Parinaz Rashidi, et al. *EcoDL 2025 Workshop*. [[Paper](https://doi.org/10.48550/arXiv.2508.20115)]
+7. **AutoDDG: Automated Dataset Description Generation using Large Language Models** Haoxiang Zhang, Yurong Liu, Wei-Lun (Allen) Hung, et al. *arXiv 2025.* [[Paper](https://arxiv.org/abs/2502.01050)]
+8. **LEDD: Large Language Model-Empowered Data Discovery in Data Lakes** Qi An, Chihua Ying, Yuqing Zhu, et al. *arXiv 2025*. [[Paper](https://arxiv.org/abs/2502.15182)]
+9. **LLM-Aided Customizable Profiling of Code Data Based On Programming Language Concepts** Thorat, Pankaj, et al. *arXiv 2025.* [[Paper](https://arxiv.org/abs/2503.15571)]
+10. **Cocoon: Semantic Table Profiling Using Large Language Models** Huang, Zezhou, et al. *Proceedings of the 2024 Workshop on Human-In-the-Loop Data Analytics*. 2024. [[Paper](https://dl.acm.org/doi/abs/10.1145/3665939.3665957)]
+11. **DynoClass: A Dynamic Table-Class Detection System Without the Need for Predefined Ontologies** Haonan Wang, Eugene Wu, Kechen Liu, et al. *TRL @ NeurIPS 2024 Poster*. [[Paper](https://openreview.net/forum?id=r45TbawHl8#discussion)]
 
