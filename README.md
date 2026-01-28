@@ -73,12 +73,13 @@ We present a systematic survey of **LLM-enhanced data preparation**, an emerging
   - [1.1 Data Acquisition](#11-data-acquisition)
   - [1.2 Data Deduplication](#12-data-deduplication)
   - [1.3 Data Filtering](#13-data-filtering)
-  - [1.4 Data Selection](#14-data-selection)
+  - [1.4 Data Domain Selection](#14-data-domain-selection)
   - [1.5 Data Mixing](#15-data-mixing)
   - [1.6 Data Distillation and Synthesis](#16-data-distillation-and-synthesis)
   - [1.7 End-to-End Data Processing Pipelines](#17-end-to-end-data-processing-pipelines)
   
 - [2 Data Storage for LLM](#2-data-storage-for-llm)
+  
   - [2.1 Data Formats](#21-data-formats)
   - [2.2 Data Distribution](#22-data-distribution)
   - [2.3 Data Organization](#23-data-organization)
@@ -87,6 +88,7 @@ We present a systematic survey of **LLM-enhanced data preparation**, an emerging
   - [2.6 KV Cache](#26-kv-cache)
   
 - [3 Data Serving for LLM](#3-data-serving-for-llm)
+  
   - [3.1 Data Shuffling](#31-data-shuffling)
   - [3.2 Data Compression](#32-data-compression)
   - [3.3 Data Packing](#33-data-packing)
@@ -100,7 +102,7 @@ We present a systematic survey of **LLM-enhanced data preparation**, an emerging
 - [5 LLM as Data Analyst](#5-llm-as-data-analyst)
 
    - [5.1 LLM for Structured Data Analysis](#51-llm-for-structured-data-analysis)
-   - [5.2 LLM for Semi-Structured Data Analysis](#52-llm-for-semistructured-data-analysis)
+   - [5.2 LLM for Semi-Structured Data Analysis](#52-llm-for-semi-structured-data-analysis)
    - [5.3 LLM for Unstructured Data Analysis](#53-llm-for-unstructured-data-analysis)
   - [5.4 LLM for Heterogeneous Data Analysis](#54-llm-for-heterogeneous-data-analysis)
 
@@ -236,9 +238,9 @@ Mike Conover, Matt Hayes, Ankit Mathur, et al. *2023*. [[Source](https://www.dat
 
 ## 1 Data Processing for LLM
 
-[⬆️top](#table-of-contents)
-
 ### 1.1 Data Acquisition
+
+[⬆️top](#table-of-contents)
 
 #### Public Data Sources
 
@@ -401,7 +403,6 @@ Identify and up-sample samples with the removal rate after the entire filtering 
 
 1. **DataComp: In search of the next generation of multimodal datasets**
    Samir Yitzhak Gadre, Gabriel Ilharco, Alex Fang, et al. *NeurIPS 2023*. [[Paper](https://arxiv.org/abs/2304.14108)]
-
 
 ### 1.3 Data Filtering
 
@@ -849,9 +850,9 @@ Synthesize reasoning steps using, e.g., CoT.
 
 ## 2 Data Storage for LLM
 
-[⬆️top](#table-of-contents)
-
 ### 2.1 Data Formats
+
+[⬆️top](#table-of-contents)
 
 #### Training Data Format
 
@@ -1064,9 +1065,9 @@ Synthesize reasoning steps using, e.g., CoT.
 
 ## 3 Data Serving for LLM
 
-[⬆️top](#table-of-contents)
-
 ### 3.1 Data Shuffling
+
+[⬆️top](#table-of-contents)
 
 #### Data Shuffling for Training
 
