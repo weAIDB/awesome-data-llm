@@ -11,21 +11,21 @@
 ```
 @article{LLMDATASurvey,
     title={A Survey of LLM × DATA},
-    author={Xuanhe Zhou, Junxuan He, Wei Zhou, Haodong Chen, Zirui Tang, Haoyu Zhao, Xin Tong, Guoliang Li, Youmin Chen, Jun Zhou, Zhaojun Sun, Binyuan Hui, Shuo Wang, Conghui He, Zhiyuan Liu, Jingren Zhou, Fan Wu},
+    author={Xuanhe Zhou and Junxuan He and Wei Zhou and Haodong Chen and Zirui Tang and Haoyu Zhao and Xin Tong and Guoliang Li and Youmin Chen and Jun Zhou and Zhaojun Sun and Binyuan Hui and Shuo Wang and Conghui He and Zhiyuan Liu and Jingren Zhou and Fan Wu},
     year={2025},
     journal={arXiv preprint arXiv:2505.18458},
     url={https://arxiv.org/abs/2505.18458}
 }
 @article{tangllmasanalyst,
     title={LLM/Agent-as-Data-Analyst: A Survey},
-    author={Zirui Tang, Weizheng Wang, Zihang Zhou, Yang Jiao, Bangrui Xu, Boyu Niu, Xuanhe Zhou, Guoliang Li, Yeye He, Wei Zhou, Yitong Song, Cheng Tan, Bin Wang, Conghui He, Xiaoyang Wang, Fan Wu},
+    author={Zirui Tang and Weizheng Wang and Zihang Zhou and Yang Jiao and Bangrui Xu and Boyu Niu and Xuanhe Zhou and Guoliang Li and Yeye He and Wei Zhou and Yitong Song and Cheng Tan and Bin Wang and Conghui He and Xiaoyang Wang and Fan Wu},
     year={2025},
     journal={arXiv preprint arXiv:2509.23988},
     url={https://arxiv.org/abs/2509.23988}
 }
 @article{zhoullmpreparationsurvey,
     title={Can LLMs Clean Up Your Mess? A Survey of Application-Ready Data Preparation with LLMs},
-    author={Wei Zhou, Jun Zhou, Haoyu Wang, Zhenghao Li, Qikang He, Shaokun Han, Guoliang Li, Xuanhe Zhou, Yeye He, Chunwei Liu, Zirui Tang, Bin Wang, Shen Tang, Kai Zuo, Yuyu Luo, Zhenzhe Zheng, Conghui He, Jingren Zhou, Fan Wu},
+    author={Wei Zhou and Jun Zhou and Haoyu Wang and Zhenghao Li and Qikang He and Shaokun Han and Guoliang Li and Xuanhe Zhou and Yeye He and Chunwei Liu and Zirui Tang and Bin Wang and Shen Tang and Kai Zuo and Yuyu Luo and Zhenzhe Zheng and Conghui He and Jingren Zhou and Fan Wu},
     year={2026},
     journal={arXiv preprint arXiv:2601.17058},
     url={https://arxiv.org/abs/2601.17058}
