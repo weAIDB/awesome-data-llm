@@ -1213,49 +1213,50 @@ Synthesize reasoning steps using, e.g., CoT.
 
 ###### LLM for Natural Language Interfaces
 
-1. **RubikSQL: Lifelong Learning Agentic Knowledge Base as an Industrial NL2SQL System**
+1. **QueryBear**: A practical NL2SQL system for relational databases that lets users ask questions in plain English and build internal data tools without coding. Supports PostgreSQL and MySQL. [[Source](https://querybear.com)]
+2. **RubikSQL: Lifelong Learning Agentic Knowledge Base as an Industrial NL2SQL System**
    Zui Chen, Han Li, Xinhao Zhang, et al. *to be submitted to VLDB 2026 (PVLDB Vol. 19). (2025)*. [[Paper](https://doi.org/10.48550/arXiv.2508.17590)]
-2. **Cracking SQL Barriers: An LLM-based Dialect Translation System**
+3. **Cracking SQL Barriers: An LLM-based Dialect Translation System**
    Wei Zhou, Yuyang Gao, Xuanhe Zhou, Guoliang Li. *SIGMOD 2025*. [[Paper](https://dbgroup.cs.tsinghua.edu.cn/ligl/SIGMOD25-CrackSQL.pdf)]
-3. **OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment**
+4. **OpenSearch-SQL: Enhancing Text-to-SQL with Dynamic Few-shot and Consistency Alignment**
    Xiangjin Xie, Guangwei Xu, Lingyan Zhao, Ruijie Guo. *Proc. ACM Manag. Data, Vol. 3, No. 3, Article 194, pp. 1-24 (2025)*. [[Paper](https://doi.org/10.1145/3725331)]
-4. **CrackSQL: A Hybrid SQL Dialect Translation System Powered by Large Language Models**
+5. **CrackSQL: A Hybrid SQL Dialect Translation System Powered by Large Language Models**
    Wei Zhou, Yuyang Gao, Xuanhe Zhou, Guoliang Li. *arXiv 2025 (extended from SIGMOD 2025 demo)*. [[Paper](https://doi.org/10.48550/arXiv.2504.00882)]
-5. **Data Interpreter: An LLM Agent for Data Science**
+6. **Data Interpreter: An LLM Agent for Data Science**
    Sirui Hong, Yizhang Lin, Bang Liu, et al. *ACL 2025 Findings, pp. 19796-19821 (2025)*. [[Paper](https://aclanthology.org/2025.findings-acl.1016/)]
-6. **Reasoning-SQL: Reinforcement Learning with SQL-Tailored Partial Rewards for Reasoning-Enhanced Text-to-SQL**
+7. **Reasoning-SQL: Reinforcement Learning with SQL-Tailored Partial Rewards for Reasoning-Enhanced Text-to-SQL**
    Mohammadreza Pourreza, Shayan Talaei, Ruoxi Sun, et al. *COLM 2025*. [[Paper](https://openreview.net/forum?id=HbwkIDWQgN)]
-7. **An advanced AI driven database system**
+8. **An advanced AI driven database system**
    M. Tedeschi, S. Rizwan, C. Shringi, et al. *EDULEARN25 Conference Proceedings. 2025.* [[Paper](https://arxiv.org/abs/2507.17778)]
-8. **Text to Query Plans for Question Answering on Large Tables**
+9. **Text to Query Plans for Question Answering on Large Tables**
    Yipeng Zhang, Chen Wang, Yuzhe Zhang, et al. *arXiv 2025.* [[Paper](https://arxiv.org/abs/2508.18758v1)]
-9. **Automatic Metadata Extraction for Text-to-SQL**
-   Vladislav Shkapenyuk, Divesh Srivastava, Theodore Johnson, et al. *arXiv 2025.* [[Paper](https://arxiv.org/abs/2505.19988)]
-10. **CSC-SQL: Corrective Self-Consistency in Text-to-SQL via Reinforcement Learning**
+10. **Automatic Metadata Extraction for Text-to-SQL**
+      Vladislav Shkapenyuk, Divesh Srivastava, Theodore Johnson, et al. *arXiv 2025.* [[Paper](https://arxiv.org/abs/2505.19988)]
+11. **CSC-SQL: Corrective Self-Consistency in Text-to-SQL via Reinforcement Learning**
       Lei Sheng, Shuai-Shuai Xu. *arXiv 2025.* [[Paper](https://arxiv.org/abs/2505.13271)]
-11. **OmniSQL: Synthesizing High-quality Text-to-SQL Data at Scale**
+12. **OmniSQL: Synthesizing High-quality Text-to-SQL Data at Scale**
     Haoyang Li, Shang Wu, Xiaokang Zhang, et al. *arXiv 2025.* [[Paper](https://arxiv.org/abs/2503.02240)]
-12. **Cheaper, Better, Faster, Stronger: Robust Text-to-SQL without Chain-of-Thought or Fine-Tuning**
+13. **Cheaper, Better, Faster, Stronger: Robust Text-to-SQL without Chain-of-Thought or Fine-Tuning**
     Yusuf Denizay Dönder, Derek Hommel, Andrea W Wen-Yi, et al. *arXiv 2025.* [[Paper](https://arxiv.org/abs/2505.14174)]
-13. **A Preview of XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL**
+14. **A Preview of XiYan-SQL: A Multi-Generator Ensemble Framework for Text-to-SQL**
     Yingqi Gao, Yifu Liu, Xiaoxia Li, et al. *arXiv 2025.* [[Paper](https://arxiv.org/abs/2411.08599)]
-14. **FinSQL: Model-Agnostic LLMs-based Text-to-SQL Framework for Financial Analysis**
+15. **FinSQL: Model-Agnostic LLMs-based Text-to-SQL Framework for Financial Analysis**
     Chao Zhang, Yuren Mao, Yijiang Fan, et al. *SIGMOD 2024.* [[Paper](https://doi.org/10.1145/3626246.3653375)]
-15. **CodeS: Towards Building Open-source Language Models for Text-to-SQL**
+16. **CodeS: Towards Building Open-source Language Models for Text-to-SQL**
     Haoyang Li, et al. *Proceedings of the ACM on Management of Data, Volume 2, Issue 3, 2024.* [[Paper](https://doi.org/10.1145/3654930)]
-16. **The Dawn of Natural Language to SQL: Are We Fully Ready?**
+17. **The Dawn of Natural Language to SQL: Are We Fully Ready?**
     Boyan Li, Yuyu Luo, Chengliang Chai, Guoliang Li, Nan Tang. *VLDB 2024.* [[Paper](https://arxiv.org/abs/2406.01265)]
-17. **Contextualized Data-Wrangling Code Generation in Computational Notebooks**
+18. **Contextualized Data-Wrangling Code Generation in Computational Notebooks**
     Junjie Huang, Daya Guo, Chenglong Wang, et al. *ASE 2024*. [[Paper](https://dl.acm.org/doi/abs/10.1145/3691620.3695503)]
-18. **PET-SQL: A Prompt-Enhanced Two-Round Refinement of Text-to-SQL with Cross-consistency**
+19. **PET-SQL: A Prompt-Enhanced Two-Round Refinement of Text-to-SQL with Cross-consistency**
     Zhishuai Li, Xiang Wang, Jingjing Zhao, et al. *arXiv 2024.* [[Paper](https://doi.org/10.48550/arXiv.2403.09732)]
-19. **CHESS: Contextual Harnessing for Efficient SQL Synthesis**
+20. **CHESS: Contextual Harnessing for Efficient SQL Synthesis**
     Shayan Talaei, Mohammadreza Pourreza, Yu-Chen Chang, et al. *arXiv 2024.* [[Paper](https://doi.org/10.48550/arXiv.2405.16755)]
-20. **DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction**
+21. **DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction**
     Mohammadreza Pourreza, Davood Rafiei. *NeurIPS 2023*. [[Paper](https://dl.acm.org/doi/10.5555/3666122.3667699)]
-21. **Natural Language to Code Generation in Interactive Data Science Notebooks**
+22. **Natural Language to Code Generation in Interactive Data Science Notebooks**
     Pengcheng Yin, Wen-Ding Li, Kefan Xiao, et al. *ACL 2023.* [[Paper](https://aclanthology.org/2023.acl-long.9/)]
-22. **PaLM: Scaling Language Modeling with Pathways**
+23. **PaLM: Scaling Language Modeling with Pathways**
     Aakanksha Chowdhery, Sharan Narang, Jacob Devlin, et al. *JMLR 2023.* [[Paper](https://dl.acm.org/doi/10.5555/3648699.3648939)]
 
 ###### LLM for Semantic Analysis
