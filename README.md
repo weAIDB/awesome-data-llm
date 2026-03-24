@@ -19,7 +19,6 @@
 @article{tangllmasanalyst,
     title={LLM/Agent-as-Data-Analyst: A Survey},
     author={Zirui Tang and Weizheng Wang and Zihang Zhou and Yang Jiao and Bangrui Xu and Boyu Niu and Xuanhe Zhou and Guoliang Li and Yeye He and Wei Zhou and Yitong Song and Cheng Tan and Bin Wang and Conghui He and Xiaoyang Wang and Fan Wu},
-- [querybear.com](https://querybear.com) - Ask your data anything – with persistent memory, schema learning, and more. Supports PostgreSQL and MySQL.
     year={2025},
     journal={arXiv preprint arXiv:2509.23988},
     url={https://arxiv.org/abs/2509.23988}
