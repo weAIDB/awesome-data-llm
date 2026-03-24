@@ -665,9 +665,11 @@ Augment fine-tuning text for specific use cases (e.g., domain augmentation, alig
 
 ##### Domain Data Synthesis
 
-1. **Multistage Collaborative Knowledge Distillation from a Large Language Model for Semi-Supervised Sequence Generation**
+1. **Structural Entropy Guided Agent for Detecting and Repairing Knowledge Deficiencies in LLMs**
+   Yifan Wei, Xiaoyan Yu, Tengfei Pan, et al. *NeurIPS 2025*. [[Paper](https://openreview.net/forum?id=hTGqC1h8Ig)]
+2. **Multistage Collaborative Knowledge Distillation from a Large Language Model for Semi-Supervised Sequence Generation**
    Jiachen Zhao, Wenlong Zhao, Andrew Drozdov, et al. *ACL 2024*. [[Paper](https://arxiv.org/abs/2311.08640)]
-2. **Synthetic Data (Almost) from Scratch: Generalized Instruction Tuning for Language Models**
+3. **Synthetic Data (Almost) from Scratch: Generalized Instruction Tuning for Language Models**
    Haoran Li, Qingxiu Dong, Zhengyang Tang, et al. *arXiv 2024.* [[Paper](https://doi.org/10.48550/arXiv.2402.13064)]
 
 ##### Instruction Data Synthesis
